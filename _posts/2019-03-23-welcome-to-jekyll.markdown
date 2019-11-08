@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "l6"
+title:  "l7"
 date:   2019-03-23 21:03:36 +0530
 categories: Javascript NodeJS
 ---
@@ -8,6 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 __Why this won't work???__  
 video:  
 <https://www.runoob.com>   
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/4AzrmVVPXIg/0.jpg)](https://www.youtube.com/embed/4AzrmVVPXIg "quadrotor")  
 <img src="/assets/semantic.png" width="50%">   
 ---  
 test  
