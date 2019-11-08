@@ -1,12 +1,12 @@
 ---
-layout: test
+layout: test2
 title:  "test"
 date:   2019-03-23 21:03:36 +0530
 categories: Transfer learning
 ---
-Test
-video:<https://www.runoob.com>
-<img src="/assets/semantic.png" width="50%">
+Test  
+video:<https://www.runoob.com>  
+<img src="/assets/semantic.png" width="50%">  
 
 
 ```javascript
