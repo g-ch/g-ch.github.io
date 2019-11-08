@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "l7"
+title:  "l8"
 date:   2019-03-23 21:03:36 +0530
 categories: Javascript NodeJS
 ---
@@ -10,6 +10,8 @@ video:
 <https://www.runoob.com>   
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/4AzrmVVPXIg/0.jpg)](https://www.youtube.com/embed/4AzrmVVPXIg "quadrotor")  
 <img src="/assets/semantic.png" width="50%">   
+<iframe width="870" height="489" src="https://www.youtube.com/embed/4AzrmVVPXIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
 ---  
 test  
 
