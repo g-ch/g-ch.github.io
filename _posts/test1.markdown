@@ -1,24 +1,23 @@
 ---
 layout: test2
 title:  "test"
-date:   2019-03-23 21:03:36 +0530
+date:   2019-10-23 21:03:36 +0530
 categories: Transfer learning
 ---
 Test  
-video:<https://www.runoob.com>  
-<img src="/assets/semantic.png" width="50%">  
+
 
 
 ```javascript
-const Razorpay = require('razorpay');
+const Razorpay1 = require('razorpay');
 
-let rzp = Razorpay({
+let rzp1 = Razorpay1({
 	key_id: 'KEY_ID',
 	secret: 'name'
 });
 
 // capture request
-rzp.capture(payment_id, cost)
+rzp1.capture(payment_id, cost)
 	.then(function (data) {
 		return 2;
 	})
