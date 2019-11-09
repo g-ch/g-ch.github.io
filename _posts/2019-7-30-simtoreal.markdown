@@ -9,6 +9,7 @@ categories: Transfer_Learning Visual_Navigation Imitation_Learning
 </center>   
 __Publication:__  
 __G. Chen__, H. Yu, W. Dong, X. Sheng, X. Zhu, H. Ding, Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis, in Preprint: <https://arxiv.org/abs/1910.05758>   
+__Brief Introduction:__  
 &ensp;&ensp;&ensp;&ensp;This work systematically investigates environment representations for visual navigation through sim-to-real transfer learning. A visual information pyramid (VIP) model and three criteria for a proper representation is proposed. Then we presents our representation composed of a depth image with particular noise model and a categorized detection image to adjust sim-to-real learning-based navigation in environment with both static and dynamic obstacles. To evaluate the effectiveness, we firstly built a coarse simulation environment in Gazebo and collected a one-hour-long dataset from expert's operation. Then we trained eight models with our representation and other representations popularly used in the literature, such as RGB image, depth image and segmented semantic image. The model trained with our representation stands out in both simulation and real world tests. Further more, we analyzed the inner reaction of the network models to given further comparison.   
 <center>
 	<img src="/assets/semantic.png" width="60%">  
