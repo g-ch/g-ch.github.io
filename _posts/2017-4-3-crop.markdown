@@ -9,8 +9,7 @@ categories: Crop_Protection Path_Planning
 </center>    
 __Brief Introduction:__   
 &ensp;&ensp;&ensp;&ensp;This project is for a commercial UAV that can spray pesticide automatically. My work is mainly about the development of a ground station software that can monitor the status of the UAV and plan polyline path to cover the working field.       
-<img src="/assets/white.png" width="60%">    
-<hr style="height:1px;border:none;border-top:1px solid #555555;" />   
+<img src="/assets/white.png" width="60%">     
     
 
    
