@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title:  "2222"  
-date:   2018-10-23 21:03:36 +0530  
+date:   2018-12-20 10:20:55 +0530  
 categories: Transfer-Learning  
 ---  
 Test  
