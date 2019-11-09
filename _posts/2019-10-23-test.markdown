@@ -5,15 +5,13 @@ date:   2019-10-23 21:03:44 +0530
 categories: Obstacle_Avoidance Active_Vision 
 ---   
 <center>
-	<img src="/assets/head_quad.jpg" width="40%">
-</center>   
-&ensp;&ensp;&ensp;&ensp;This work is to realize fast omnidirectional obstalce avoidance for a quadrotor in an environment with potential dynamic obstacles. The quadrotor is mounted with an active stereo vision system, which is a head composed of a high-resolution servo motor and a RealSense stereo camera. The rotation of the head is planned by a multi-objective planner to have  observations on global target direction, current velocity direction and particularly dynamic obstacles. Then a local map is built with point cloud and sample-based planning algorithm for the quadrotor is utilized to realize omnidirectional obstacle avoidance without any movement on Yaw axis.   
-&ensp;&ensp;&ensp;&ensp;This project mainly concerns local planning and belongs to our navigation framework. Tests and improvements are ongoing. A video of preliminary experiment is given below.  
-    
-__video:__  
-<center>
 	<iframe width="640" height="480" src="https://www.youtube.com/embed/4AzrmVVPXIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+</center>    
+&ensp;&ensp;&ensp;&ensp;This work is to realize fast omnidirectional obstalce avoidance for a quadrotor in an environment with potential dynamic obstacles. The quadrotor is mounted with an active stereo vision system, which is a head composed of a high-resolution servo motor and a RealSense stereo camera. The rotation of the head is planned by a multi-objective planner to have  observations on global target direction, current velocity direction and particularly dynamic obstacles. Then a local map is built with point cloud and sample-based planning algorithm for the quadrotor is utilized to realize omnidirectional obstacle avoidance without any movement on Yaw axis.   
+<center>
+	<img src="/assets/head_quad.jpg" width="40%">   
 </center>   
+&ensp;&ensp;&ensp;&ensp;This project mainly concerns local planning and belongs to our navigation framework. Tests and improvements are ongoing. A video of preliminary experiment is given below.   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
     
 
