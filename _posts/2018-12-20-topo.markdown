@@ -1,13 +1,9 @@
 ---  
 layout: post  
-title:  "2222"  
+title:  "Spatial Semantic Topological Mapping and Positioning"  
 date:   2018-12-20 10:20:55 +0530  
-categories: Transfer-Learning  
----  
-Test  
-__Why this won't work???__  
-video:  
-<https://www.runoob.com>   
+categories: Global_Mapping Topological_SLAM   
+---   
 <img src="/assets/semantic.png" width="20%">   
 ---  
-test  
+
