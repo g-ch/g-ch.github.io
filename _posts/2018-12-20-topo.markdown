@@ -4,6 +4,8 @@ title:  "Spatial Semantic Topological Mapping and Positioning"
 date:   2018-12-20 10:20:55 +0530  
 categories: Global_Mapping Topological_SLAM   
 ---   
-<img src="/assets/semantic.png" width="20%">   
----  
+<center>
+<img src="/assets/system.png" width="60%">   
+</center>
+This project   
 

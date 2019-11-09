@@ -11,12 +11,13 @@ categories: Transfer_Learning Visual_Navigation Imitation_Learning
 &ensp;&ensp;&ensp;&ensp;This project is to realize obstacle avoidance through end-to-end learning rather than traditional planner. Training in simulation and utilizing directly in the real world is pretty convenient. The result is promising and we are still working on utilizing reinforcement learning to achieve better performance.  
     
 Publication: __G. Chen__, H. Yu, W. Dong, X. Sheng, X. Zhu, H. Ding, Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis, in Preprint: <https://arxiv.org/abs/1910.05758>  
-    
+   
 __Video:__  
 <center>
 	<iframe width="640" height="480" src="https://www.youtube.com/embed/ucGyuMjlgEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
-   
+    
 
-
+\hline
+  
 
