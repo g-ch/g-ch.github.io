@@ -12,7 +12,7 @@ categories: Global_Mapping Topological_SLAM
 <center> 
 	<img src="/assets/topo3.png" width="60%">   
 </center>
-<img src="/assets/topo.png" width="50%"><img src="/assets/topo2.png" width="40%">   
+<img src="/assets/topo.png" width="50%">&ensp;<img src="/assets/topo2.png" width="40%">   
 __Publication:__  
 __G. Chen__, W. Dong, X. Sheng, X. Zhu, Generating Spatial Semantic Representations for Indoor Global Mapping, in: IEEE International Conference on Real-time Computing and Robotics, 2019.       
 C. Gong, __G. Chen__, W. Dong, X. Sheng, X. Zhu, A Separate Data Structure for Online Multi-hypothesis Topological Mapping, in: International Conference on Intelligent Robotics and Applications, 2019.   

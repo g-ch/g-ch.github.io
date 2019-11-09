@@ -7,7 +7,9 @@ categories: Obstacle_Avoidance Active_Vision
 <center>
 	<iframe width="900" height="600" src="https://www.youtube.com/embed/4AzrmVVPXIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 </center>    
-<img style="float: right;" src="/assets/head_quad.jpg" width="30%">  &ensp;&ensp;&ensp;&ensp;This work is to realize fast omnidirectional obstalce avoidance for a quadrotor in an environment with potential dynamic obstacles. The quadrotor is mounted with an active stereo vision system, which is a head composed of a high-resolution servo motor and a RealSense stereo camera. The rotation of the head is planned by a multi-objective planner to have  observations on global target direction, current velocity direction and particularly dynamic obstacles. Then a local map is built with point cloud and sample-based planning algorithm for the quadrotor is utilized to realize omnidirectional obstacle avoidance without any movement on Yaw axis.   
+<!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
+<img src="/assets/head_quad.jpg" width="40%">&ensp;&ensp;<img src="/assets/head_test.jpeg" width="40%">   
+&ensp;&ensp;&ensp;&ensp;This work is to realize fast omnidirectional obstalce avoidance for a quadrotor in an environment with potential dynamic obstacles. The quadrotor is mounted with an active stereo vision system, which is a head composed of a high-resolution servo motor and a RealSense stereo camera. The rotation of the head is planned by a multi-objective planner to have  observations on global target direction, current velocity direction and particularly dynamic obstacles. Then a local map is built with point cloud and sample-based planning algorithm for the quadrotor is utilized to realize omnidirectional obstacle avoidance without any movement on Yaw axis.   
 &ensp;&ensp;&ensp;&ensp;This project mainly concerns local planning and belongs to our navigation framework. Tests and improvements are ongoing. A video of preliminary experiment is given below.   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
     
