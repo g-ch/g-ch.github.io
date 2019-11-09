@@ -4,8 +4,9 @@ title:  "Learning to Navigate from Simulation via Spatial and Semantic Informati
 date:   2019-7-30 15:16:26 +0530  
 categories: Transfer_Learning Visual_Navigation Imitation_Learning  
 ---    
+
 <center>
-	<iframe width="900" height="600" src="https://www.youtube.com/embed/ucGyuMjlgEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+	<iframe width="80%" height="480" src="https://www.youtube.com/embed/ucGyuMjlgEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
 </center>   
 __Publication:__  
 __G. Chen__, H. Yu, W. Dong, X. Sheng, X. Zhu, H. Ding, Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis, in Preprint: <https://arxiv.org/abs/1910.05758>   
