@@ -15,6 +15,7 @@ __Brief Introduction:__
 <center>
 	<img src="/assets/head_quad.jpg" width="41%">&ensp;&ensp;<img src="/assets/head_test.jpeg" width="35%">   
 </center>  
+<img src="/assets/white.png" width="60%">   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
 
    
