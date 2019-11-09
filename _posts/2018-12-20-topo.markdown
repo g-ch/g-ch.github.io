@@ -7,5 +7,5 @@ categories: Global_Mapping Topological_SLAM
 <center>
 <img src="/assets/system.png" width="60%">   
 </center>
-This project   
+This project is to   
 
