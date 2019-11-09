@@ -14,7 +14,7 @@ sass:
 plainwhite:
   name: Gang Chen
   tagline: Ph. D. student in SJTU
-  interests: Visual navigation for autonomous system in unknown environment with potential dynamic obstacles.
+  interests: Visual navigation
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
