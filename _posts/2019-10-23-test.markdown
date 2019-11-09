@@ -13,11 +13,9 @@ categories: Obstacle_Avoidance Active_Vision
 __video:__  
 <center>
 	<iframe width="640" height="480" src="https://www.youtube.com/embed/4AzrmVVPXIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-</center>  
-   
-
+</center>   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
     
-    
+
    
  
