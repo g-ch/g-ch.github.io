@@ -7,8 +7,8 @@ categories: UAV-Competition
 
 &ensp;&ensp;&ensp;&ensp; The target of the compitition is to let the drone fly through some circles and find a traget in a simulated woods. The environment is GPS-denied and position of the obstacles are random. We won the champion in both simulation   competition and real world competition. Gang Chen worked as the team leader.     
 <center>
-	<img src="/assets/com2019-1.jpeg" width="60%">   
-	<img src="/assets/com2019-2.jpeg" width="60%">   
+	<img src="/assets/com2019-1.jpeg" width="50%">   
+	<img src="/assets/com2019-2.jpeg" width="50%">   
 </center>                                                         
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
 
