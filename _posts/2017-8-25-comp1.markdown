@@ -1,0 +1,17 @@
+---  
+layout: post  
+title:  "Champion in CHEROC UAV Competition on Intelligent Sensing 2017"  
+date:   2017-8-25 15:22:19 +0530  
+categories: UAV-Competition  
+---    
+
+&ensp;&ensp;&ensp;&ensp; The target of Section 1 is to let the drone fly through some circles and land and re-take off on parking aprons in the order given by the numbers on the aprons. The target of Section 2 is to search for several targets in a indoor environment. We won the champion in both sections. Gang Chen worked as the team leader.     
+<center>
+	<img src="/assets/com2017-1.jpeg" width="60%">   
+	<img src="/assets/com2017-2.jpeg" width="60%">   
+</center>                                                         
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />   
+    
+
+  
+
