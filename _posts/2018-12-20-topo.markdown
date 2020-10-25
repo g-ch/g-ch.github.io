@@ -5,8 +5,8 @@ date:   2018-12-20 10:20:55 +0530
 categories: Global_Mapping Topological_SLAM   
 ---   
 __Publication:__  
-__G. Chen__, W. Dong, X. Sheng, X. Zhu, Generating Spatial Semantic Representations for Indoor Global Mapping, in: IEEE International Conference on Real-time Computing and Robotics, 2019.       
-C. Gong, __G. Chen__, W. Dong, X. Sheng, X. Zhu, A Separate Data Structure for Online Multi-hypothesis Topological Mapping, in: International Conference on Intelligent Robotics and Applications, 2019.   
+__G. Chen__, W. Dong, X. Sheng, X. Zhu, Generating Spatial Semantic Representations for Indoor Global Mapping, in: IEEE International Conference on Real-time Computing and Robotics, 2019. Link: <https://ieeexplore.ieee.org/document/9043998>      
+C. Gong, __G. Chen__, W. Dong, X. Sheng, X. Zhu, A Separate Data Structure for Online Multi-hypothesis Topological Mapping, in: International Conference on Intelligent Robotics and Applications, 2019. Link: <https://link.springer.com/chapter/10.1007%2F978-3-030-27538-9_58>
 <center>
 	<img src="/assets/system.png" width="60%">   
 </center>  
