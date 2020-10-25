@@ -13,10 +13,9 @@ C. Gong, __G. Chen__, W. Dong, X. Sheng, X. Zhu, A Separate Data Structure for O
 __Brief Introduction:__   
 &ensp;&ensp;&ensp;&ensp;This project is to build a topological map in a large-scale unknown environment. Consider a delivery robot working in a city or a block. The robot does not need to build and store a precise metric map, like a voxel map, of the whole working area, which is computitionally expensive and storage-consuming. We prefer to build a topology map with semantic labels and  spatial layout for each node for indoor environments. Combined with outdoor digital map that has already been widely used, we can have a rough topological map of the working area, which can give a rough position in global scale and plan a global path. This paradigm is fast and storage-saving, and have the ability to conjecture the whole map with loops based on incomplete exploration. The final generated global path can be used as input for our local planner.    
 &ensp;&ensp;&ensp;&ensp;This topological global mapping and positioning paradigm mainly contains two parts. The first part is to extract topological structure with semantic information of the local environment. The second part is to build the topological map in real time and gives the position of the robot in the map. This projects serves for the global planner of our navigation framework.  
-<center> 
-	<img src="/assets/topo3.png" width="60%">   
-</center>
-<img src="/assets/topo.png" width="50%">&ensp;<img src="/assets/topo2.png" width="40%">   
+
+<img src="/assets/topo3.png" width="50%">&ensp;
+<img src="/assets/topo.png" width="30%">  
 <img src="/assets/white.png" width="60%">   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" /> 
     
