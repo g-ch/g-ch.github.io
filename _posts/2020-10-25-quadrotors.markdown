@@ -11,7 +11,7 @@ categories: Obstacle_Avoidance Active_Vision Platform_Design
 &ensp;&ensp;&ensp;&ensp; __Flight controller:__ Pixracer <br>
 &ensp;&ensp;&ensp;&ensp; __Onboard computer:__ Up core board + Movidius Myriad X <br>
 &ensp;&ensp;&ensp;&ensp; __Sensors:__ Realsense D435i, Optical flow, GPS (optional) <br>
-Future works on obstacle avoidance will be conducted with this new platform.
+&ensp;&ensp;&ensp;&ensp; * Future works on obstacle avoidance will be conducted with this new platform.
 <img src="/assets/white.png" width="60%">   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
 
