@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title:  "Computationally Efficient Trajectory Planning for High Speed Obstacle Avoidance"  
+title:  "Computationally Efficient Trajectory Planning for High Speed Obstacle Avoidance of a Quadrotor with Active Sensing"  
 date:   2020-9-25 19:08:20 +0530  
 categories: Obstacle_Avoidance Trajectory_Planning
 ---   
