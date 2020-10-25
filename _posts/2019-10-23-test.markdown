@@ -13,7 +13,7 @@ __Publication:__
 __G. Chen__, W. Dong, X. Sheng, X. Zhu, H. Ding, Bio-inspired Obstacle Avoidance for Flying Robots with Active Sensing, in Preprint: <https://arxiv.org/abs/2010.04977> <br>
 __Brief Introduction:__   
 &ensp;&ensp;&ensp;&ensp; Instead of fusing multiple sensors to enlarge the view field, we introduce a bio-inspired solution that utilizes a stereo camera with independent rotational DOF to sense the obstacles actively. In particular, the rotation is planned heuristically by multiple objectives that can benefit flight safety, including tracking dynamic obstacles, observing the heading direction, and exploring the previously unseen area. With this sensing result, a flight path is planned based on real-time sampling and collision checking in state space, which constitutes an active sense and avoid (ASAA) system. <br>
-&ensp;&ensp;&ensp;&ensp; This is the first system that applies active stereo vision to realize obstacle avoidance for flying robots. <br>
+&ensp;&ensp;&ensp;&ensp; __This is the first system that applies active stereo vision to realize obstacle avoidance for flying robots.__ <br>
 <img src="/assets/white.png" width="60%">   
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
 
