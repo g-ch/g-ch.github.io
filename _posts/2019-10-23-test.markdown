@@ -5,7 +5,7 @@ date:   2020-6-23 21:03:44 +0530
 categories: Obstacle_Avoidance Active_Vision 
 ---   
 <center>
-	<iframe width="651" height="366" src="https://www.youtube.com/embed/nkbnfcaqJ0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="80%" height="366" src="https://www.youtube.com/embed/nkbnfcaqJ0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>  
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
 <!-- <iframe src="http://www.fufuok.com/" id="iframepage" name="iframepage" frameBorder=0 scrolling=no width="100%" onLoad="iFrameHeight()" ></iframe> -->
