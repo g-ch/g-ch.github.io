@@ -17,7 +17,7 @@ plainwhite:
   major: Mechanical Engineering
   school: Shanghai Jiaotong University
   interests1: "Research interests:"
-  interests2: "Visual Navigation"
+  interests2: "MAV Obstacle Avoidance"
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
