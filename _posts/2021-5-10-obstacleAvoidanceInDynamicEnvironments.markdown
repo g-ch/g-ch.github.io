@@ -6,7 +6,7 @@ categories: Map_Building Obstacle_Avoidance Trajectory_Planning
 ---   
 <center>
 	<!-- <iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-	<img src="/assets/map.png" width="13%">  
+	<img src="/assets/map.png" width="14%">  
 	<img src="/assets/dynamic_obstacle.gif" width="60%"> 
 </center> 
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
