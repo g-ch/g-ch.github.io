@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title:  "The Third Version of the MAV with Active Sensing is Developed!"  
-date:   2020-10-25 17:01:10 +0530  
+date:   2020-9-2 17:01:10 +0530  
 categories: Obstacle_Avoidance Active_Vision Platform_Design
 ---   
 <center>
