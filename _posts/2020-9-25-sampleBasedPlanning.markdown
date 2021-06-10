@@ -6,7 +6,7 @@ categories: Obstacle_Avoidance Trajectory_Planning
 ---   
 <center>
 	<!-- <iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-	<img src="/assets/sample.gif" width="30%"> 
+	<img src="/assets/sample.gif" width="27%"> 
 	<img src="/assets/fly_in_woods.gif" width="50%"> 
 </center>  
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  

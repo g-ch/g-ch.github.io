@@ -6,11 +6,7 @@ categories: Map_Building Obstacle_Avoidance Trajectory_Planning
 ---   
 <center>
 	<!-- <iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-	<img src="/assets/particle_map_1.png" width="15%"> 
-	<img src="/assets/particle_map_2.png" width="15%"> 
-	<img src="/assets/particle_map_3.png" width="15%"> 
-</center> 
-<center> 
+	<img src="/assets/map.png" width="40%">  
 	<img src="/assets/dynamic_obstacle.gif" width="60%"> 
 </center> 
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
