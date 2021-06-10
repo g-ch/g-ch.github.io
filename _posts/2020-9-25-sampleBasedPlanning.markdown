@@ -5,7 +5,8 @@ date:   2020-9-25 19:08:20 +0530
 categories: Obstacle_Avoidance Trajectory_Planning
 ---   
 <center>
-	<iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- <iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+	<img src="/assets/fly_in_woods.gif" width="60%"> 
 </center>  
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
 <!-- <iframe src="http://www.fufuok.com/" id="iframepage" name="iframepage" frameBorder=0 scrolling=no width="100%" onLoad="iFrameHeight()" ></iframe> -->
