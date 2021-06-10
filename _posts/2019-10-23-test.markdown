@@ -10,7 +10,7 @@ categories: Obstacle_Avoidance Active_Vision
 <!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
 <!-- <iframe src="http://www.fufuok.com/" id="iframepage" name="iframepage" frameBorder=0 scrolling=no width="100%" onLoad="iFrameHeight()" ></iframe> -->
 __Publication:__  
-In IEEE/ASME Transactions on Mechatronics, 2021 <https://ieeexplore.ieee.org/document/9359513> <br>
+In IEEE/ASME Transactions on Mechatronics, 2021 Link: <https://ieeexplore.ieee.org/document/9359513> <br>
 __Brief Introduction:__   
 &ensp;&ensp;&ensp;&ensp; Instead of fusing multiple sensors to enlarge the view field, we introduce a bio-inspired solution that utilizes a stereo camera with independent rotational DOF to sense the obstacles actively. In particular, the rotation is planned heuristically by multiple objectives that can benefit flight safety, including tracking dynamic obstacles, observing the heading direction, and exploring the previously unseen area. With this sensing result, a flight path is planned based on real-time sampling and collision checking in state space, which constitutes an active sense and avoid (ASAA) system. <br>
 &ensp;&ensp;&ensp;&ensp; __This is the first system that applies active stereo vision to realize obstacle avoidance for flying robots.__ <br>
