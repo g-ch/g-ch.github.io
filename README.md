@@ -134,3 +134,18 @@ Mr. Green Jekyll Theme incorporates libraries written below. Without these libra
 | [Compress HTML in Jekyll v3.1.0](https://github.com/penibelst/jekyll-compress-html/tree/v3.1.0), Copyright (c) 2014 Anatol Broder. Compress HTML in Jekyll is distributed under the terms of the MIT License. | [compress.liquid](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/_layouts/util/compress.liquid) |
 
 [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+
+
+### Usage
+
+# Basic Content
+Modify terms in `_data/lang/en.yml`. To change side icon img, change `side_nav_profile_img_path` in `_data/conf/main.yml`. 
+
+# Post
+To add a post. Add a markdown file in `_posts` directly. Put the images of posts into `assets/img/posts`.
+
+# Contact icons
+Icons like github and goolge are from `https://fontawesome.com/v4.7/icons/`. In `_data/const/contact.yml`, you can use the icons and add a prefix for the link. The suffix of the link is added in `_data/owner.yml`.
+
+# Home Page
+To change automatic content (used in home page and 'about' page in `tabs/about.md` and 1_layouts/home.md1), add your desired content in `_data/lang/en.yml` and modify `_includes/util/auto-content-generator.liquid` to change the default display information. More layouts of the home page are defined in `_layouts/home.md`.

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml"
+xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://localhost:4000/posts/2022-02-10-Examples</loc>
+    <lastmod>2022-02-10T07:11:06+08:00</lastmod>
+    <image:image>
+      <image:loc>http://localhost:4000/assets/img/posts/post_pic1.jpg</image:loc>
+      <image:title>Examples</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2021-5-10-obstacleAvoidanceInDynamicEnvironments</loc>
+    <lastmod>2021-05-10T17:32:03+08:00</lastmod>
+    <image:image>
+      <image:loc>http://localhost:4000/assets/img/posts/post_pic1.jpg</image:loc>
+      <image:title>Project in progress: Obstacle Avoidance in Dynamic Environments</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2020-9-2-quadrotors</loc>
+    <lastmod>2020-09-02T19:31:10+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2019-8-22-comp2</loc>
+    <lastmod>2019-08-22T17:46:26+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2019-7-30-simtoreal</loc>
+    <lastmod>2019-07-30T17:46:26+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2017-8-25-comp1</loc>
+    <lastmod>2017-08-25T17:52:19+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/2017-4-3-crop</loc>
+    <lastmod>2017-04-03T13:52:21+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/tabs/about.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4000/tabs/archive.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4000/tabs/blog/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4000/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4000/tabs/links.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4000/tabs/blog/2/</loc>
+  </url>
+</urlset>
+

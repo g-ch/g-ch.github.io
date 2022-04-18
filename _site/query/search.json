@@ -1,0 +1,74 @@
+[
+    {
+    "title"    : "Examples"
+    ,"category" : "jekyll"
+    ,"tags"     : "jekyll, sample, example post"
+    ,"url"      : "/posts/2022-02-10-Examples"
+    ,"date"     : "Feb 10, 2022"
+    ,"content"  : "This is an example page to display markdown related styles for Mr. Green Jekyll Theme. Headings (centered) Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraphs Paragraph William Shakespeare, Let me not to the marriage of true minds Admit impediments. Love is not love Which alters when it alteration finds, Or bends with the remover to remove. O no, it is an ever-fixed mark That looks on tempests and is never shaken; It is the star to every wand’ring barque, Whose worth’s unknown, although his height be taken. Love’s not Time’s fool, though rosy lips and cheeks Within his bending sickle’s compass come; Love alters not with his brief hours and weeks, But bears it out even to the edge of doom. If this be error and upon me proved, I never writ, nor no man ever loved. Texts Quoted text Hello world Bold text Hello world Italic text Hello world kbd text Hello world Blockquote William Shakespeare, Let me not to the marriage of true minds Admit impediments. Love is not love Which alters when it alteration finds, Or bends with the remover to remove. O no, it is an ever-fixed mark That looks on tempests and is never shaken; It is the star to every wand’ring barque, Whose worth’s unknown, although his height be taken. Love’s not Time’s fool, though rosy lips and cheeks Within his bending sickle’s compass come; Love alters not with his brief hours and weeks, But bears it out even to the edge of doom. If this be error and upon me proved, I never writ, nor no man ever loved. Link This is Mr. Green Jekyll Theme, a simple theme built for Jekyll. * Hello world! This is Gang Chen Picture Picture (centered) Lists Apple Banana Orange Fruits Apples Granny Smith Mutsu Bananas Cavendish Red Vegetables Tables Small Table (centered) Fruits(not aligned) Alignment (centered) num (right align) Apple centered 9999 Banana centered long text 999 Orange centered 99 Lemon centered 9 Wide Table (centered) scroll enabled when page is narrow Fruits num (left align) num (right align) num num num Apple 1111 1111 2222 3333 4444 Banana 111 111 222 333 444 Orange 11 11 22 33 44 Lemon 1 1 2 3 4 Wider Table scroll enabled when page is narrow Fruits num (left align) num (right align) num num num num num num Apple 1111 1111 2222 3333 4444 5555 6666 7777 Banana 111 111 222 333 444 555 666 777 Orange 11 11 22 33 44 55 66 77 Lemon 1 1 2 3 4 5 6 7 Code Highlight for i in range(5, 10): print(i) Quote for i in range(5, 10): print(i)"
+  },{
+    "title"    : "Project in progress: Obstacle Avoidance in Dynamic Environments"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2021-5-10-obstacleAvoidanceInDynamicEnvironments"
+    ,"date"     : "May 10, 2021"
+    ,"content"  : "Brief Introduction:      Obstacle avoidance in dynamic environments is very popular recently. We aim to realize high-speed obstacle avoidance of the quadrotor with very limited sensing and computing power. Our methods include two main parts: 1. A Dual-Structure Particle-based (DSP) map, which can represent and predict the occupancy status of the neighborhood area continuously and rapidly. This is the first 3D dynamic occupancy map that can be used in onboard CPUs in real-time. 2. A risk-aware sampling-based trajectory planning method, which is used to plan a safe and dynamically feasible trajectory for quadrotors in dynamic environments. See the figure above for preliminary experiments."
+  },{
+    "title"    : "The Third Version of the MAV with Active Sensing is Developed!"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2020-9-2-quadrotors"
+    ,"date"     : "Sep 2, 2020"
+    ,"content"  : "    Based on the requirements of high-speed obstacle avoidance in unknown and dynamic environments, the newest version of the MAV with active sensing is developed. The weight with full computing and sensing moudules is within 300g.      Flight controller: Pixracer      Onboard computer: Up core board + Movidius Myriad X      Sensors: Realsense D435i, Optical flow, GPS (optional)      * Future works on obstacle avoidance will be conducted with this new platform."
+  },{
+    "title"    : "Champion in CHEROC UAV Competition on Intelligent Sensing 2019"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2019-8-22-comp2"
+    ,"date"     : "Aug 22, 2019"
+    ,"content"  : "     The target of the compitition is to let the drone fly through some circles and find a traget in a simulated woods. The environment is GPS-denied and position of the obstacles are random. We won the champion in both simulation competition and real world competition. Gang Chen worked as the team leader."
+  },{
+    "title"    : "Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis with Noise Model Embedding"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2019-7-30-simtoreal"
+    ,"date"     : "Jul 30, 2019"
+    ,"content"  : "Publication: G. Chen, H. Yu, W. Dong, X. Sheng, X. Zhu, H. Ding, Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis, in Preprint: https://arxiv.org/abs/1910.05758 Brief Introduction:     This work systematically investigates environment representations for visual navigation through sim-to-real transfer learning. A visual information pyramid (VIP) model and three criteria for a proper representation is proposed. Then we presents our representation composed of a depth image with particular noise model and a categorized detection image to adjust sim-to-real learning-based navigation in environment with both static and dynamic obstacles. To evaluate the effectiveness, we firstly built a coarse simulation environment in Gazebo and collected a one-hour-long dataset from expert’s operation. Then we trained eight models with our representation and other representations popularly used in the literature, such as RGB image, depth image and segmented semantic image. The model trained with our representation stands out in both simulation and real world tests. Further more, we analyzed the inner reaction of the network models to given further comparison."
+  },{
+    "title"    : "Champion in CHEROC UAV Competition on Intelligent Sensing 2017"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2017-8-25-comp1"
+    ,"date"     : "Aug 25, 2017"
+    ,"content"  : "     The target of Section 1 is to let the drone fly through some circles and land and re-take off on parking aprons in the order given by the numbers on the aprons. The target of Section 2 is to search for several targets in a indoor environment. We won the champion in both sections. Gang Chen worked as the team leader."
+  },{
+    "title"    : "Crop Protection UAV"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/posts/2017-4-3-crop"
+    ,"date"     : "Apr 3, 2017"
+    ,"content"  : "Brief Introduction:     This project is for a commercial UAV that can spray pesticide automatically. My work is mainly about the development of a ground station software that can monitor the status of the UAV and plan polyline path to cover the working field. &ensp;&ensp;"
+  },{
+    "title"    : "Links"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/tabs/links.html"
+    ,"date"     : "Apr 19, 2022"
+    ,"content"  : "main header Links info Your Links page description. category title JekyII / Liquid type id_jekyiiliquid color gray title Web Design type id_webdesign color #F4A273 title Programming type id_programming color #62b462 list nil type id_programming title Stack OverFlow url https://stackoverflow.com/ info Stack Overflow is a question and answer website for professional and enthusiastic programmers. type id_jekyiiliquid title Jekyll url https://jekyllrb.com/ info Transform your plain text into static websites and blogs. type id_jekyiiliquid title Jekyll Cheat Sheet url https://cloudcannon.com/community/jekyll-cheat-sheet/ info There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do. type id_jekyiiliquid title Liquid for Designers url https://github.com/Shopify/liquid/wiki/Liquid-for-Designers info Liquid for Designers wiki on GitHub type id_jekyiiliquid title Liquid for Programmers url https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers info Liquid for Programmers wiki on GitHub type id_jekyiiliquid title Liquid Reference url https://shopify.dev/api/liquid/ info Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub type id_webdesign title W3Schools url https://www.w3schools.com/ info W3Schools offers free online tutorials references and exercises in all the major languages of the web. Covering popular subjects like HTML CSS JavaScript Python SQL Java and many more."
+  },{
+    "title"    : "Welcome"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/"
+    ,"date"     : "Apr 19, 2022"
+    ,"content"  : "Biography Gang Chen is a Ph.D. candidate at the Cooperative Intelligence and Unmanned System (CIUS) Lab, Robotics Institute, School of Mechanical Engineering, Shanghai Jiao Tong University, China. He received his Bachelor’s degree in Mechanical Engineering from Shanghai Jiao Tong University in 2016. Starting from Oct. 2021, he works at the Autonomous Multi-robots (AMR) Laboratory, Cognitive Robotics Department, the Delft University of Technology as a visiting student. His research focuses on perception and perception-aware planning for obstacle avoidance in dynamic environments. Publications [1] Gang Chen is a Ph.D. candidate at the Cooperative Intelligence and Unmanned System (CIUS) Lab [2] [3] Conferences [1] [2] [3]"
+  },{
+    "title"    : "About"
+    ,"category" : ""
+    ,"tags"     : ""
+    ,"url"      : "/tabs/about.html"
+    ,"date"     : "Apr 19, 2022"
+    ,"content"  : "Biography Gang Chen is a Ph.D. candidate at the Cooperative Intelligence and Unmanned System (CIUS) Lab, Robotics Institute, School of Mechanical Engineering, Shanghai Jiao Tong University, China. He received his Bachelor’s degree in Mechanical Engineering from Shanghai Jiao Tong University in 2016. Starting from Oct. 2021, he works at the Autonomous Multi-robots (AMR) Laboratory, Cognitive Robotics Department, the Delft University of Technology as a visiting student. His research focuses on perception and perception-aware planning for obstacle avoidance in dynamic environments."
+  }
+  ]
+

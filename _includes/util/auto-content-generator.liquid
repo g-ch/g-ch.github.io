@@ -36,8 +36,25 @@
 {{ website_greeting_text }}
 
 {{ site.data.lang[lng].auto_content.auto_generated_text }}
+
 {%- endcapture -%}
 
+
+
 {%- capture website_info_text_second -%}
+
+### {{ site.data.lang[lng].auto_content.publications }}
+
+{% for pub_this in site.data.lang[lng].auto_content.publication_infos %}
+  {{ pub_this }}
+{% endfor %}
+
+
+### {{ site.data.lang[lng].auto_content.conferences }}
+
+{% for conf_this in site.data.lang[lng].auto_content.conference_infos %}
+  {{ conf_this }}
+{% endfor %}
+
 {{ website_info_text }}
 {%- endcapture -%}

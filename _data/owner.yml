@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "Gang Chen"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Gang Chen"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -29,12 +29,13 @@ creative_commons:
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
+  - github: "g-ch"
+  - email: "G.Chen-5@tudelft.nl"
   #- linkedin: ""
   #- twitter: ""
   #- instagram: ""
-  #- youtube: ""
+  - youtube: "UC4Zj3lLOF4JE7ty2876HsDw"
+  - googles_scholar: "citations?user=fryWUUEAAAAJ&hl=zh-CN"
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""

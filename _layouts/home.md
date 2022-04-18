@@ -23,6 +23,9 @@ layout: default
   </div>
 </div>
 
+
+
+
 {%- if lng_pages.size > 0 and site.data.conf.others.home.new_posts %}
 <div class="multipurpose-container new-posts-container">
   <h1>{{ site.data.lang[lng].home.new_posts_title }}</h1>

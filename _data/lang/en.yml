@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: No Translation
 
 navigation:
-  brand_sub_text: Jekyll theme
+  brand_sub_text: Ph.D. Candidate
   contact_header: Contact
 
 color_scheme_switch_tooltip: Color scheme
@@ -101,8 +101,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: News
+  button_name: News
   upside_down_tabs:
     tab:
       all: All
@@ -127,12 +127,12 @@ post-list:
 home:
   title: Welcome
   button_name: Home
-  new_posts_title: New Articles
+  new_posts_title: News
   new_posts_show_more_button: View More ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   top_header_line1: "Welcome To"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand Theme"
+  top_header_line2: "Gang Chen's Website!"
 
 # for archives layout
 archives:
@@ -144,7 +144,7 @@ archives:
 about:
   title: About
   button_name: About
-  sub_title: "Awesome jekyll theme"
+  sub_title: "Ph.D. Candidate in Shanghai Jiao Tong University"
   email_title: email
 
 # for links layout
@@ -154,12 +154,12 @@ links:
   link_text: Web site
   info_text: Info
 
-# for projects layout
-projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+# # for projects layout
+# projects:
+#   title: Projects
+#   button_name: Projects
+#   read_more_text: Read more
+#   read_less_text: Read less
 
 # for privacy-policy layout
 privacy-policy:
@@ -168,14 +168,18 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: &meta_info $site_brand is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages.
+meta_common_description: &meta_info This is a personal website of Gang Chen.
 
 auto_content:
   title: Sample post (auto generated)
-  greeting: Hello!
-  text: *meta_info
-  more_info: Learn More.
-  auto_generated_text: This is an auto generated sample content for display in the selected language.
+  greeting: Biography
+  # text: Publications 
+  # more_info: Learn More.
+  auto_generated_text: Gang Chen is a Ph.D. candidate at the Cooperative Intelligence and Unmanned System (CIUS) Lab, Robotics Institute, School of Mechanical Engineering, Shanghai Jiao Tong University, China. He received his Bachelor’s degree in Mechanical Engineering from Shanghai Jiao Tong University in 2016. Starting from Oct. 2021, he works at the Autonomous Multi-robots (AMR) Laboratory, Cognitive Robotics Department, the Delft University of Technology as a visiting student. His research focuses on perception and perception-aware planning for obstacle avoidance in dynamic environments.
+  publications: Publications
+  publication_infos: ["[1] Gang Chen is a Ph.D. candidate at the Cooperative Intelligence and Unmanned System (CIUS) Lab", "[2]", "[3]"]
+  conferences: Conferences
+  conference_infos: ["[1]", "[2]", "[3]"]
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
