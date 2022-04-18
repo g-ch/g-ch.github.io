@@ -1,0 +1,24 @@
+---  
+layout: post  
+title:  "[New Paper] Fly as fast as 5.2 m/s in woods!"  
+date:   2020-9-25 19:08:20 +0530  
+categories: Obstacle_Avoidance Trajectory_Planning
+img: ":fly_in_woods.gif"
+---   
+<center>
+	<!-- <iframe width="80%" height="480" src="https://www.youtube.com/embed/zgIZDW39KJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+	<img src=":sample.gif" width="33.8%"> 
+	<img src=":fly_in_woods.gif" width="60%"> 
+</center>  
+<!-- <img style="float: right;" src="/assets/head_quad.jpg" width="30%">  -->  
+<!-- <iframe src="http://www.fufuok.com/" id="iframepage" name="iframepage" frameBorder=0 scrolling=no width="100%" onLoad="iFrameHeight()" ></iframe> -->
+__Publication:__  
+__G. Chen__, D. Sun, W. Dong, X. Sheng, X. Zhu and H. Ding, "Computationally Efficient Trajectory Planning for High Speed Obstacle Avoidance of a Quadrotor With Active Sensing," in IEEE Robotics and Automation Letters & ICRA 2021,  Link: <https://ieeexplore.ieee.org/document/9363525>
+<br>
+__Brief Introduction:__   
+&ensp;&ensp;&ensp;&ensp; Quadrotor with active sensing was proposed recently to overcome the view field limitation and achieved an excellent perception ability in obstacle avoidance tasks. To realize high-speed flights of this quadrotor in unknown and cluttered environments, a computationally efficient trajectory planner is presented in this paper. Firstly, a non-taboo area gradient-based sampling (NAGS) algorithm is utilized to sample a multi-objective-directed collision-free local path. The algorithm runs in the state space with the consideration of active sensing direction and is able to find a feasible path in a few trials without falling into local minima. To further enhance real-time processing, a motion primitive generation algorithm concerning both time optimality and jerk optimality is raised, in which an offline and online integrated solver is utilized to achieve computational efficiency. This planner is tested and benchmarked against the state-of-the-art planners for high-speed flight. Real-world experiments show that our active sensing quadrotor with the proposed planner achieved __a flight speed up to 5.2 m/s__ in an unknown and dense woods and managed to handle abrupt changes in goal direction at such a high speed.
+<br>
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />   
+
+   
+ 

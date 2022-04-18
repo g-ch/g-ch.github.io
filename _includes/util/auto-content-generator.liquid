@@ -20,6 +20,7 @@
   replace: site.data.conf.main.brand_replace, "[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)"
 %}
 
+
 {%- capture website_info_text -%}
 {{ website_info_text }} [{{site.data.lang[lng].auto_content.more_info}}]({{ site.baseurl }}{{ out_lng_page.url }})
 {%- endcapture -%}
@@ -46,14 +47,20 @@
 ### {{ site.data.lang[lng].auto_content.publications }}
 
 {% for pub_this in site.data.lang[lng].auto_content.publication_infos %}
-  {{ pub_this }}
+  {%- assign publication_high_light_my_name = pub_this |
+  replace: "G. Chen", "[G. Chen](https://g-ch.github.io/)"
+  %}
+  {{ publication_high_light_my_name }}
 {% endfor %}
 
 
 ### {{ site.data.lang[lng].auto_content.conferences }}
 
 {% for conf_this in site.data.lang[lng].auto_content.conference_infos %}
-  {{ conf_this }}
+  {%- assign conf_high_light_my_name = conf_this |
+  replace: "G. Chen", "[G. Chen](https://g-ch.github.io/)"
+  %}
+  {{ conf_high_light_my_name }}
 {% endfor %}
 
 {{ website_info_text }}

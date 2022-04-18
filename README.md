@@ -144,6 +144,9 @@ Modify terms in `_data/lang/en.yml`. To change side icon img, change `side_nav_p
 # Post
 To add a post. Add a markdown file in `_posts` directly. Put the images of posts into `assets/img/posts`.
 
+# Options on the left
+Modify `_data/conf/main.yml` to enable and disable options.
+
 # Contact icons
 Icons like github and goolge are from `https://fontawesome.com/v4.7/icons/`. In `_data/const/contact.yml`, you can use the icons and add a prefix for the link. The suffix of the link is added in `_data/owner.yml`.
 

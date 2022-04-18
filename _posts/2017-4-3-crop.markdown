@@ -1,13 +1,14 @@
 ---  
 layout: post  
-title:  "Crop Protection UAV"  
+title:  "[Project] Crop Protection UAV"  
 date:   2017-4-3 11:22:21 +0530  
 categories: Crop_Protection Path_Planning
+img: ":uav.png"
 ---      
 __Brief Introduction:__   
 &ensp;&ensp;&ensp;&ensp;This project is for a commercial UAV that can spray pesticide automatically. My work is mainly about the development of a ground station software that can monitor the status of the UAV and plan polyline path to cover the working field.  
 <center>
-	<img src="/assets/ground.png" width="42%">&ensp;&ensp;<img src="/assets/img/posts/uav.png" width="35%">  
+	<img src="/assets/img/posts/ground.png" width="42%">&ensp;&ensp;<img src="/assets/img/posts/uav.png" width="35%">  
 </center>      
     
 

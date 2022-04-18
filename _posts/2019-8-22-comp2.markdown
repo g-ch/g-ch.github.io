@@ -1,8 +1,9 @@
 ---  
 layout: post  
-title:  "Champion in CHEROC UAV Competition on Intelligent Sensing 2019"  
+title:  "[Competition] Champion in CHEROC UAV Competition on Intelligent Sensing 2019"  
 date:   2019-8-22 15:16:26 +0530  
-categories: UAV-Competition  
+categories: UAV-Competition
+img: ":comp2019_icon.png"
 ---    
 
 &ensp;&ensp;&ensp;&ensp; The target of the compitition is to let the drone fly through some circles and find a traget in a simulated woods. The environment is GPS-denied and position of the obstacles are random. We won the champion in both simulation   competition and real world competition. Gang Chen worked as the team leader.     

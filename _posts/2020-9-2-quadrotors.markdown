@@ -1,8 +1,9 @@
 ---  
 layout: post  
-title:  "The Third Version of the MAV with Active Sensing is Developed!"  
+title:  "Comparison of three home-made drones"  
 date:   2020-9-2 17:01:10 +0530  
 categories: Obstacle_Avoidance Active_Vision Platform_Design
+img: ":mavs.jpg"
 ---   
 <center>
 	<img src="/assets/img/posts/mavs.jpg" width="70%">
