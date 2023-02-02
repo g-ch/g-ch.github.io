@@ -1,7 +1,7 @@
 ---  
 layout: post  
 img: ":ras_planner.png"
-title:  "[Preprint] Risk-aware Trajectory Sampling for Quadrotor Obstacle Avoidance in Dynamic Environments"  
+title:  "Risk-aware Trajectory Sampling for Quadrotor Obstacle Avoidance in Dynamic Environments"  
 date:   2022-3-10 18:01:10 +0530  
 categories: Map_Building Obstacle_Avoidance Trajectory_Planning
 ---   
@@ -20,7 +20,7 @@ To  the  best  of  the  authors’  knowledge,  this  is  the  firstquadrotor ob
 * The  approach  to  merge  the  local  trajectory  given  byour planner to an arbitrary global trajectory.
 * A  complete  obstacle  avoidance  system  that  can  beapplied to light-weight quadrotors in dynamic environ-ments.
 
-This paper is under review currently. A preprint version can be found at <https://arxiv.org/abs/2201.06645>.
+This paper is accepted by IEEE Transactions on Industrial Electronics. https://ieeexplore.ieee.org/document/10034468.
 
 <br>
 <hr style="height:1px;border:none;border-top:1px solid #555555;" />   
