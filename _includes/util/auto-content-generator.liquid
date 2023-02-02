@@ -63,5 +63,14 @@
   {{ conf_high_light_my_name }}
 {% endfor %}
 
+### {{ site.data.lang[lng].auto_content.awards }}
+
+{% for conf_this in site.data.lang[lng].auto_content.awards_infos %}
+  {%- assign conf_high_light_my_name = conf_this |
+  replace: "G. Chen", "[G. Chen](https://g-ch.github.io/)"
+  %}
+  {{ conf_high_light_my_name }}
+{% endfor %}
+
 {{ website_info_text }}
 {%- endcapture -%}
