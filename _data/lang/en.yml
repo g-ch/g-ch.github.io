@@ -181,7 +181,7 @@ auto_content:
   conferences: Conferences
   conference_infos: ["[1] P. Peng, W. Dong, G. Chen and X. Zhu, Obstacle Avoidance of Resilient UAV Swarm Formation with Active Sensing System in the Dense Environment, 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 10529-10535.", "[2] G. Chen, et al. Generating Spatial Semantic Representations for Indoor Global Mapping. 2019 IEEE International Conference on Real-time Computing and Robotics (RCAR). IEEE, 2019.", "[3] G. Chen, et al. TRP-Controller: An Efficient Anti-Saturation Controller for Quadrotors Performing Yaw-low-priority Motions, 2021 27th International Conference on Mechatronics and Machine Vision in Practice (M2VIP). IEEE, 2021: 310-315.", "[4] G. Chen, et al. A trajectory planning and control system for quadrotor unmanned aerial vehicle in field inspection missions. International Conference on Intelligent Robotics and Applications. Springer, Cham, 2017."]
   awards: Awards
-  awards_infos: ["Champion in China Micro Arial Vehicle Competition (2020).", "Outstanding Winner in China Ocean Vehicle Design Competition (2020).", "Best paper finalist award in IEEE International Conference on Real-time Computing and Robotics (2019)", "hampion in China CHEROC MAV Competition on Intelligent Sensing. (2017 & 2019)"]
+  awards_infos: ["Champion in China Micro Arial Vehicle Competition (2020).", "Outstanding Winner in China Ocean Vehicle Design Competition (2020).", "Best paper finalist award in IEEE International Conference on Real-time Computing and Robotics (2019)", "hampion in China CHEROC MAV Competition on Intelligent Sensing (2017 & 2019)."]
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
