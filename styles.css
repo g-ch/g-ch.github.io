@@ -246,9 +246,9 @@ button:focus {
 
     .paper img {
         width: auto;
-        max-width: 250px;
+        max-width: 200px;
         height: auto;
-        max-height: 180px;
+        max-height: 150px;
         object-fit: cover;
         margin-right: 0.5rem;
     }
