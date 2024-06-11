@@ -221,8 +221,8 @@ button:focus {
 
     .nav-icon {
         width: auto;
-        height: 50px;
-        margin-right: 50px; /* Adjust as needed */
+        height: 40px;
+        margin-right: 0.5rem; /* Adjust as needed */
     }
 
     .centered-section {
@@ -246,9 +246,9 @@ button:focus {
 
     .paper img {
         width: auto;
-        max-width: 80px;
+        max-width: 150px;
         height: auto;
-        max-height: 80px;
+        max-height: 150px;
         object-fit: cover;
         margin-right: 0.5rem;
     }
