@@ -34,7 +34,7 @@ main {
 }
 
 .centered-section {
-    max-width: 850px; /* Increased max-width for wider content space */
+    max-width: 800px; /* Increased max-width for wider content space */
     margin: 0 auto;
     text-align: left; /* Text aligned left within each section */
 }
@@ -59,12 +59,12 @@ section h2 {
 .profile-pic img {
     width: auto;
     height: 200px;
-    margin-right: 8rem;
+    margin-right: 6rem;
 }
 
 .contact-info h2 {
     margin-top: 0;
-    font-size: 1.5rem; /* Increased font size for contact info */
+    font-size: 1.8rem; /* Increased font size for contact info */
 }
 
 .papers {
@@ -79,7 +79,7 @@ section h2 {
     margin: 1rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 850px;
+    max-width: 800px;
     display: flex; /* Flexbox for image and text alignment */
     align-items: center;
     box-sizing: border-box;
@@ -192,36 +192,4 @@ nav {
 
 .experience-info p {
     margin: 0; /* Remove default paragraph margins for a more compact look */
-}
-
-
-/* Media Queries */
-@media (max-width: 600px) {
-    body {
-        font-size: 18px;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    section {
-        padding: 0.5rem;
-    }
-
-    section h2 {
-        font-size: 1.2rem;
-        margin-top: 2rem;
-    }
-
-    .experience img {
-        max-width: 60px;
-        max-height: 60px;
-        margin-right: 0.5rem;
-    }
 }
