@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    font-size: 18px; /* Increased base font size */
+    line-height: 1.35; /* Adjust this value to increase or decrease line spacing */
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Increased font size for the header */
+}
+
+nav a {
+    color: #081ae2;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 20px; /* Increased font size for nav links */
+}
+
+main {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.centered-section {
+    max-width: 850px; /* Increased max-width for wider content space */
+    margin: 0 auto;
+    text-align: left; /* Text aligned left within each section */
+}
+
+section {
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+section h2 {
+    margin-top: 3rem; /* Adjust this value to increase or decrease the spacing above the titles */
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px; /* Increased font size for section titles */
+}
+
+#basic-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: auto;
+    height: 200px;
+    margin-right: 8rem;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    font-size: 1.5rem; /* Increased font size for contact info */
+}
+
+.papers {
+    display: flex;
+    flex-direction: column; /* Stack papers vertically */
+    align-items: center; /* Center papers within the section */
+}
+
+.paper {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 850px;
+    display: flex; /* Flexbox for image and text alignment */
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.paper img {
+    width: 240px; /* Fixed image size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.paper-info {
+    text-align: left; /* Text aligned left within the paper info */
+    font-size: 18px;
+}
+
+.year-section {
+    margin-bottom: 2rem;
+}
+
+.year-section h3 {
+    text-align: center;
+}
+
+.abstract {
+    display: none;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.abstract.open {
+    display: block;
+    max-height: none;
+}
+
+
+.project img {
+    display: block;
+    margin: 0 auto;
+    width: 800px; /* Adjust the size as needed */
+    /* height: 500px; */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+
+button {
+    background-color: #fafcfa; /* Default background color */
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #b6bab7; /* Background color when hovering */
+}
+
+button:active {
+    background-color: #b6bab7; /* Background color when active */
+}
+
+button:focus {
+    outline: none;
+    background-color: #b6bab7; /* Background color when focused */
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icon {
+    width: 100px; /* Adjust the size as needed */
+    height: 60px;
+    margin-right: 350px; /* Increased margin for more space */
+}
+
+
+.experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Adjust the spacing between rows */
+}
+
+.experience img {
+    width: 100%; /* Make the image fill the container's width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 80px; /* Maximum width */
+    max-height: 80px; /* Maximum height */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    margin-right: 5rem; /* Adjust the spacing between image and text */
+    /* margin-left: 5rem;  */
+}
+
+.experience-info {
+    flex: 1; /* Allow the description to take the remaining space */
+    font-size: 18px;
+}
+
+.experience-info p {
+    margin: 0; /* Remove default paragraph margins for a more compact look */
+}
