@@ -1,3 +1,4 @@
+/* Existing styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,27 +6,39 @@ body {
     background-color: #ffffff;
     color: #000;
     text-align: center;
-    font-size: 18px; /* Increased base font size */
-    line-height: 1.35; /* Adjust this value to increase or decrease line spacing */
+    font-size: 18px; /* Base font size */
+    line-height: 1.6; /* Adjust this value to increase or decrease line spacing */
 }
 
 header {
     background-color: #fff;
-    color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2rem; /* Increased font size for the header */
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-icon {
+    width: auto;
+    height: 50px;
+    margin-right: 350px; /* Adjust as needed */
 }
 
 nav a {
     color: #081ae2;
     margin: 0 1.5rem;
     text-decoration: none;
-    font-size: 20px; /* Increased font size for nav links */
+    font-size: 20px;
 }
 
 main {
@@ -45,32 +58,34 @@ section {
 }
 
 section h2 {
-    margin-top: 3rem; /* Adjust this value to increase or decrease the spacing above the titles */
+    margin-top: 3rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px; /* Increased font size for section titles */
+    font-size: 22px;
 }
 
 #basic-info {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .profile-pic img {
     width: auto;
     height: 200px;
-    margin-right: 6rem;
+    margin-right: 2rem;
+    max-width: 100%;
 }
 
 .contact-info h2 {
     margin-top: 0;
-    font-size: 1.8rem; /* Increased font size for contact info */
+    font-size: 1.8rem;
 }
 
 .papers {
     display: flex;
-    flex-direction: column; /* Stack papers vertically */
-    align-items: center; /* Center papers within the section */
+    flex-direction: column;
+    align-items: center;
 }
 
 .paper {
@@ -80,21 +95,26 @@ section h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 800px;
-    display: flex; /* Flexbox for image and text alignment */
+    display: flex;
+    /*flex-direction: column;*/ /* Stack elements vertically */
     align-items: center;
     box-sizing: border-box;
 }
 
 .paper img {
-    width: 240px; /* Fixed image size */
-    height: auto; /* Maintain aspect ratio */
+    width: auto;
+    max-width: 240px;
+    height: auto;
+    max-height: 200px;
     object-fit: cover;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .paper-info {
-    text-align: left; /* Text aligned left within the paper info */
-    font-size: 18px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.0; /* Adjust this value to increase or decrease line spacing */
+    width: 100%;
 }
 
 .year-section {
@@ -117,19 +137,16 @@ section h2 {
     max-height: none;
 }
 
-
 .project img {
     display: block;
     margin: 0 auto;
-    width: 800px; /* Adjust the size as needed */
-    /* height: 500px; */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-
 button {
-    background-color: #fafcfa; /* Default background color */
+    background-color: #fafcfa;
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
@@ -142,54 +159,76 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
-    background-color: #b6bab7; /* Background color when hovering */
-}
-
-button:active {
-    background-color: #b6bab7; /* Background color when active */
-}
-
+button:hover,
+button:active,
 button:focus {
-    outline: none;
-    background-color: #b6bab7; /* Background color when focused */
+    background-color: #b6bab7;
 }
-
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-icon {
-    width: 100px; /* Adjust the size as needed */
-    height: 60px;
-    margin-right: 350px; /* Increased margin for more space */
-}
-
 
 .experience {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem; /* Adjust the spacing between rows */
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .experience img {
-    width: 100%; /* Make the image fill the container's width */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 80px; /* Maximum width */
-    max-height: 80px; /* Maximum height */
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    margin-right: 5rem; /* Adjust the spacing between image and text */
-    /* margin-left: 5rem;  */
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 1rem;
+    max-width: 100%;
 }
 
 .experience-info {
-    flex: 1; /* Allow the description to take the remaining space */
+    flex: 1;
     font-size: 18px;
 }
 
 .experience-info p {
-    margin: 0; /* Remove default paragraph margins for a more compact look */
+    margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 18px;
+        margin: 0.5rem;
+    }
+
+    .centered-section {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .profile-pic img {
+        height: 150px;
+        margin-right: 1rem;
+    }
+
+    .paper {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .experience img {
+        width: 60px;
+        margin-right: 0.5rem;
+    }
+
+    .experience-info {
+        font-size: 16px;
+    }
 }
