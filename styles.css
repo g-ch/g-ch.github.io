@@ -189,7 +189,22 @@ button:focus {
     margin: 0;
 }
 
-/* Media Queries for Responsiveness */
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .paper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .paper img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+
 @media (max-width: 600px) {
     body {
         font-size: 16px;
@@ -202,6 +217,12 @@ button:focus {
     nav a {
         font-size: 18px;
         margin: 0.5rem;
+    }
+
+    .nav-icon {
+        width: auto;
+        height: 50px;
+        margin-right: 50px; /* Adjust as needed */
     }
 
     .centered-section {
