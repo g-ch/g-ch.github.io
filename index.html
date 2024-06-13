@@ -35,8 +35,11 @@
 
         <section id="profile" class="centered-section">
             <p>
-                I am a postdoctoral researcher at the Autonomous Multi-Robots (AMR) Lab, led by Dr. Javier Alonso-Mora, in Delft University of Technology.
-                My research interests include robot perception, multi-robot systems, and robot design. 
+                I am a postdoctoral researcher at the <a href="https://autonomousrobots.nl/">Autonomous Multi-Robots (AMR) Lab</a> in Cognitive Robotics, Delft University of Technology.
+                My research interests main include robot perception and planning for obstacle avoidance and multi-robot systems, with a special focus on dynamic environments. 
+                The goal is to make robots working in human environments more safe and efficient. 
+                In my spare time, I also work on automatic robot design using my knowledge in optimization, machine learning and object representations. 
+                I am always looking for opportunities to collaborate with other researchers and students.
             </p>
         </section>
 
@@ -53,35 +56,35 @@
                 <img src="assets/tud.png" alt="Experience 1">
                 <div class="experience-info">
                     <p>[2023.2 - Present] Delft University of Technology</p>
-                    <p>Position: Postdoctoral Researcher</p>
+                    <p>Position: Postdoctoral Researcher in Autonomous Multi-Robots (AMR) Lab</p>
                 </div>
             </div>
             <div class="experience">
                 <img src="assets/ailab.png" alt="Experience 2">
                 <div class="experience-info">
                     <p>[2022.8 - 2023.1] Shanghai AI Lab</p>
-                    <p>Position: Intern</p>
+                    <p>Position: Intern in OpenRobot Lab</p>
                 </div>
             </div>
             <div class="experience">
                 <img src="assets/tud.png" alt="Experience 3">
                 <div class="experience-info">
                     <p>[2021.10 - 2022.5] Delft University of Technology</p>
-                    <p>Position: Visiting Ph.D. Student</p>
+                    <p>Position: Visiting Ph.D. Student in Autonomous Multi-Robots (AMR) Lab</p>
                 </div>
             </div>
             <div class="experience">
                 <img src="assets/sjtu.png" alt="Experience 4">
                 <div class="experience-info">
                     <p>[2016.9 - 2022.12] Shanghai Jiao Tong University</p>
-                    <p>Position: Ph.d. Student (Joint Master & Ph.d.)</p>
+                    <p>Position: Ph.d. Student (Joint Master & Ph.d.) in Cooperation Intelligence of Unmanned System (CIUS) Lab</p>
                 </div>
             </div>
             <div class="experience">
                 <img src="assets/sjtu.png" alt="Experience 5">
                 <div class="experience-info">
                     <p>[2012.9 - 2016.6] Shanghai Jiao Tong University</p>
-                    <p>Position: Undergraduate Student</p>
+                    <p>Position: Undergraduate Student in Mechanical Engineering</p>
                 </div>
             </div>
         </section>
@@ -90,15 +93,113 @@
             <h2>Selected Papers</h2>
             <div class="papers">
                 <div class="paper">
-                    <img src="assets/paper1-image.jpg" alt="Paper 1">
+                    <img src="assets/tro-2023.png" alt="Paper 1">
                     <div class="paper-info">
-                        <h3>Paper  to be added</h3>
-                        <p>Authors: Author 1, Author 2</p>
+                        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10285872">Continuous occupancy mapping in dynamic environments using particles</a> </h3>
+                        <p>Authors: G Chen, W Dong, P Peng, J Alonso-Mora, X Zhu</p>
                         <p>Year: 2023</p>
-                        <p>Journal: Journal Name</p>
-                        <p class="abstract">Abstract: Abstract text here...</p>
+                        <p>Journal: IEEE Transactions on Robotics</p>
+                        <p class="abstract">Abstract: Particle-based dynamic occupancy maps were proposed in recent years to model the obstacles in dynamic environments. Current particle-based maps describe the occupancy status
+                            in discrete grid form and suffer from the grid size problem, wherein
+                            a large grid size is unfavorable for motion planning while a small
+                            grid size lowers efficiency and causes gaps and inconsistencies. To
+                            tackle this problem, this article generalizes the particle-based map
+                            into continuous space and builds an efficient 3-D egocentric local
+                            map. A dual-structure subspace division paradigm, composed of a
+                            voxel subspace division and a novel pyramid-like subspace division,
+                            is proposed to propagate particles and update the map efficiently
+                            with the consideration of occlusions. The occupancy status at an
+                            arbitrary point in the map space can then be estimated with the
+                            weights of the particles. To reduce the noise in modeling static
+                            and dynamic obstacles simultaneously, an initial velocity estimation approach and a mixture model are utilized. Experimental
+                            results show that our map can effectively and efficiently model
+                            both dynamic obstacles and static obstacles. Compared to the
+                            state-of-the-art grid-form particle-based map, our map enables
+                            continuous occupancy estimation and substantially improves the
+                            mapping performance at different resolutions.</p>
                     </div>
                 </div>
+
+                <div class="paper">
+                    <img src="assets/RAL-2022.png" alt="Paper 3">
+                    <div class="paper-info">
+                        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9998074">Rast: Risk-aware spatio-temporal safety corridors for mav navigation in dynamic uncertain environments</a> </h3>
+                        <p>Authors: G Chen, S Wu, M Shi, W Dong, H Zhu, J Alonso-Mora</p>
+                        <p>Year: 2022</p>
+                        <p>Journal: IEEE Robotics and Automation Letters </p>
+                        <p class="abstract">Abstract: Autonomous navigation of Micro Aerial Vehicles
+                            (MAVs) in dynamic and unknown environments is a complex and
+                            challenging task. Current works rely on assumptions to solve the
+                            problem. The MAV’s pose is precisely known, the dynamic obstacles can be explicitly segmented from static ones, their number is
+                            known and fixed, or they can be modeled with given shapes. In
+                            this letter, we present a method for MAV navigation in dynamic
+                            uncertain environments without making any of these assumptions.
+                            The method employs a particle-based dynamic map to represent the
+                            local environment and predicts it to the near future. Collision risk
+                            is defined based on the predicted maps and a series of risk-aware
+                            spatio-temporal (RAST) safety corridors are constructed, which
+                            are finally used to optimize a dynamically-feasible collision-free
+                            trajectory for the MAV. We compared our method with several
+                            state-of-the-art works in 12000 simulation tests in Gazebo with the
+                            physical engine enabled. The results show that our method has
+                            the highest success rate at different uncertainty levels. Finally, we
+                            validated the proposed method in real experiments.</p>
+                    </div>
+                </div>
+
+
+                <div class="paper">
+                    <img src="assets/tmech-2021.png" alt="Paper 2">
+                    <div class="paper-info">
+                        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9359513">An active sense and avoid system for flying robots in dynamic environments</a> </h3>
+                        <p>Authors: G Chen, W Dong, X Sheng, X Zhu, H Ding</p>
+                        <p>Year: 2021</p>
+                        <p>Journal: IEEE/ASME Transactions on Mechatronics</p>
+                        <p class="abstract">Abstract: This article investigates a novel activesensing-based obstacle avoidance paradigm for flying
+                            robots in dynamic environments. Instead of fusing multiple sensors to enlarge the field of view (FOV), we introduce an alternative approach that utilizes a stereo camera
+                            with an independent rotational degree of freedom to sense
+                            the obstacles actively. In particular, the sensing direction
+                            is planned heuristically by multiple objectives, including
+                            tracking dynamic obstacles, observing the heading direction, and exploring the previously unseen area. With the
+                            sensing result, a flight path is then planned based on realtime sampling and uncertainty-aware collision checking in
+                            the state space, which constitutes an active sense and
+                            avoid system. Experiments in both simulation and the real
+                            world demonstrate that this system can well cope with dynamic obstacles and abrupt goal direction changes. Since
+                            only one stereo camera is utilized, this system provides
+                            a low-cost and effective approach to overcome the FOV
+                            limitation in visual navigation.</p>
+                    </div>
+                </div>
+
+
+                <div class="paper">
+                    <img src="assets/ral-2021.png" alt="Paper 2">
+                    <div class="paper-info">
+                        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9363525">Computationally efficient trajectory planning for high speed obstacle avoidance of a quadrotor with active sensing</a> </h3>
+                        <p>Authors: G Chen, D Sun, W Dong, X Sheng, X Zhu, H Ding</p>
+                        <p>Year: 2021</p>
+                        <p>Journal: IEEE Robotics and Automation Letters</p>
+                        <p class="abstract">Abstract: Quadrotor with active sensing was proposed recently
+                            to overcome the view field limitation and achieved an excellent
+                            perception ability in obstacle avoidance tasks. To realize high-speed
+                            flights of this quadrotor in unknown and cluttered environments,
+                            a computationally efficient trajectory planner is presented in this
+                            letter. Firstly, a non-taboo area gradient-based sampling (NAGS)
+                            algorithm is utilized to sample a multi-objective-directed collisionfree local path. The algorithm runs in the state space with the
+                            consideration of active sensing direction and is able to find a feasible
+                            path in a few trials without falling into local minima. To further
+                            enhance real-time processing, a motion primitive generation algorithm concerning both time optimality and jerk optimality is
+                            raised, in which an offline and online integrated solver is utilized to
+                            achieve computational efficiency. This planner is tested and benchmarked against the state-of-the-art planners for high-speed flight.
+                            Real-world experiments show that our active sensing quadrotor
+                            with the proposed planner achieved a flight speed up to 5.2 m/s
+                            in an unknown and dense woods and managed to handle abrupt
+                            changes in goal direction at such a high speed.</p>
+                    </div>
+                </div>
+
+
+
                 <!-- <div class="paper">
                     <img src="assets/paper1-image.jpg" alt="Paper 1">
                     <div class="paper-info">
