@@ -47,7 +47,7 @@ main {
 }
 
 .centered-section {
-    max-width: 800px; /* Increased max-width for wider content space */
+    max-width: 900px; /* Increased max-width for wider content space */
     margin: 0 auto;
     text-align: left; /* Text aligned left within each section */
 }
