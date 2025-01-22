@@ -47,7 +47,7 @@ main {
 }
 
 .centered-section {
-    max-width: 900px; /* Increased max-width for wider content space */
+    max-width: 800px; /* Increased max-width for wider content space */
     margin: 0 auto;
     text-align: left; /* Text aligned left within each section */
 }
@@ -71,10 +71,12 @@ section h2 {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    margin: 5px auto;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
     max-width: 800px;
+    box-sizing: border-box;
 }
 
 .profile-pic img {
