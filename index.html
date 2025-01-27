@@ -6,6 +6,7 @@
     <title>My Academic Website</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/icon.png" type="image/jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -27,10 +28,19 @@
                 <p>Email: <a href="mailto:g.chen-5@tudelft.nl">g.chen-5@tudelft.nl</a></p>
                 <p>Office: F2-180, Building 34, 2628 CD Delft</p>
                 <p>
-                    <a href="https://github.com/g-ch">GitHub</a> |
-                    <a href="https://scholar.google.com/citations?hl=en&user=fryWUUEAAAAJ">Google Scholar</a>   
+                    <a href="https://github.com/g-ch" target="_blank" class="icon-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    |
+                    <a href="https://scholar.google.com/citations?hl=en&user=fryWUUEAAAAJ" target="_blank" class="icon-link">
+                        <i class="fas fa-graduation-cap"></i> Google Scholar
+                    </a>
+                    |
+                    <a href="https://www.youtube.com/@gangchen10" target="_blank" class="icon-link">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
                 </p>
-            </div>
+            </div>            
         </section>
 
         <section id="profile" class="centered-section">
@@ -45,52 +55,89 @@
 
         <section id="research" class="centered-section">
             <h2>Current Research Topics</h2>
-            <p> - Semantic mapping and occupancy prediction in dynamic environments</p>
-            <p> - Open and dynamic world multi-robot navigation</p>
-            <p> - Automatic robot design</p>
+            <div class="research-grid">
+                <div class="research-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Semantic mapping and occupancy prediction in dynamic environments</span>
+                </div>
+                <div class="research-item">
+                    <i class="fas fa-robot"></i>
+                    <span>Open and dynamic world mobile manipulation</span>
+                </div>
+                <div class="research-item">
+                    <i class="fas fa-cogs"></i>
+                    <span>Automatic robot design</span>
+                </div>
+            </div>
         </section>
+        
+        
 
         <section id="education" class="centered-section">
             <h2>Education and Experience</h2>
             <div class="experience">
-                <img src="assets/tud.png" alt="Experience 1">
+                <img src="assets/tud.png" alt="TU Delft">
                 <div class="experience-info">
-                    <p>[2023.2 - Present] Delft University of Technology</p>
-                    <p>Position: Postdoctoral Researcher in Autonomous Multi-Robots (AMR) Lab</p>
+                    <div class="affiliation">
+                        <p class="place">Delft University of Technology</p>
+                        <p class="position">Postdoctoral Researcher in Autonomous Multi-Robots (AMR) Lab</p>
+                    </div>
+                    <p class="time">[2023.2 - Present]</p>
                 </div>
             </div>
             <div class="experience">
-                <img src="assets/ailab.png" alt="Experience 2">
+                <img src="assets/ailab.png" alt="Shanghai AI Lab">
                 <div class="experience-info">
-                    <p>[2022.8 - 2023.1] Shanghai AI Lab</p>
-                    <p>Position: Intern in OpenRobot Lab</p>
+                    <div class="affiliation">
+                        <p class="place">Shanghai AI Lab</p>
+                        <p class="position">Intern in OpenRobot Lab</p>
+                    </div>
+                    <p class="time">[2022.8 - 2023.1]</p>
                 </div>
             </div>
             <div class="experience">
-                <img src="assets/tud.png" alt="Experience 3">
+                <img src="assets/tud.png" alt="TU Delft">
                 <div class="experience-info">
-                    <p>[2021.10 - 2022.5] Delft University of Technology</p>
-                    <p>Position: Visiting Ph.D. Student in Autonomous Multi-Robots (AMR) Lab</p>
+                    <div class="affiliation">
+                        <p class="place">Delft University of Technology</p>
+                        <p class="position">Visiting Ph.D. Student in Autonomous Multi-Robots (AMR) Lab</p>
+                    </div>
+                    <p class="time">[2021.10 - 2022.5]</p>
                 </div>
             </div>
             <div class="experience">
-                <img src="assets/sjtu.png" alt="Experience 4">
+                <img src="assets/sjtu.png" alt="SJTU">
                 <div class="experience-info">
-                    <p>[2016.9 - 2022.12] Shanghai Jiao Tong University</p>
-                    <p>Position: Ph.d. Student (Joint Master & Ph.d.) in Cooperation Intelligence of Unmanned System (CIUS) Lab</p>
-                </div>
-            </div>
-            <div class="experience">
-                <img src="assets/sjtu.png" alt="Experience 5">
-                <div class="experience-info">
-                    <p>[2012.9 - 2016.6] Shanghai Jiao Tong University</p>
-                    <p>Position: Undergraduate Student in Mechanical Engineering</p>
+                    <div class="affiliation">
+                        <p class="place">Shanghai Jiao Tong University</p>
+                        <p class="position">Ph.D. Student in CIUS Lab</p>
+                    </div>
+                    <p class="time">[2016.9 - 2022.12]</p>
                 </div>
             </div>
         </section>
+        
+
+
+        <section id="video" class="centered-section">
+            <h2>Recent Work Video</h2>
+            <div class="video-container">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/OIJDZRtHFHE"
+                    title="Semantic DSP Map"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        
 
         <section id="selected-papers" class="centered-section">
-            <h2>Selected Papers</h2>
+            <h2>Selected Publications</h2>
 
             <div class="papers">
                 <div class="paper">

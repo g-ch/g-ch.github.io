@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #fff;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 
@@ -31,11 +31,11 @@ nav {
 .nav-icon {
     width: auto;
     height: 50px;
-    margin-right: 350px; /* Adjust as needed */
+    margin-right: 420px; /* Adjust as needed */
 }
 
 nav a {
-    color: #081ae2;
+    color: #0C2340;
     margin: 0 1.5rem;
     text-decoration: none;
     font-size: 20px;
@@ -68,8 +68,8 @@ section h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -146,6 +146,67 @@ section h2 {
     max-height: none;
 }
 
+
+/* Style for the paper card */
+.paper {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add smooth transition */
+    display: flex;
+    align-items: center;
+}
+
+/* Image in the paper card */
+.paper img {
+    width: auto;
+    max-width: 180px; /* Adjust to fit your design */
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 6px; /* Rounded corners for the image */
+    transition: transform 0.3s ease; /* Add transition for zoom effect */
+}
+
+/* Hover effect on the paper card */
+.paper:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+    background-color: #f8faff; /* Light blue background on hover */
+}
+
+/* Hover effect on the paper image */
+.paper:hover img {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Paper title */
+.paper-info h3 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    color: #333;
+    transition: color 0.3s ease; /* Add hover effect to title */
+}
+
+/* Hover effect on paper title */
+.paper-info h3:hover {
+    color: #0078d7; /* Change title color on hover */
+}
+
+/* Abstract text */
+.paper-info p {
+    font-size: 14px;
+    color: #555;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+
+
+
 .project img {
     display: block;
     margin: 0 auto;
@@ -153,6 +214,16 @@ section h2 {
     height: auto;
     object-fit: cover;
 }
+
+.project {
+    margin-bottom: 3rem; /* Adds space between each project */
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 button {
     background-color: #fafcfa;
@@ -270,4 +341,286 @@ button:focus {
     .experience-info {
         font-size: 16px;
     }
+}
+
+
+
+/* Update */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav a {
+    color: #555;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0C2340;
+    transform: translateY(-3px);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.section {
+    padding: 2rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    color: #0C2340;
+}
+
+button {
+    background-color: #0C2340;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0C2340;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.icon-link {
+    text-decoration: none;
+    color: #333;
+    margin: 0 0.5rem;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #0C2340; /* Change to your desired hover color */
+}
+
+.icon-link i {
+    margin-right: 0.5rem;
+    font-size: 20px;
+}
+
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* Space between items */
+    margin-top: 2rem;
+}
+
+.research-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.research-item i {
+    font-size: 24px;
+    color: #0C2340; /* Icon color */
+    margin-right: 1rem;
+}
+
+.research-item span {
+    flex-grow: 1;
+    color: #333;
+}
+
+
+/* Flexbox layout for experience entries */
+.experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap; /* Adjust layout on smaller screens */
+}
+
+.experience img {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.experience-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Ensure it spans the entire row */
+    padding: 0.5rem 0;
+}
+
+.affiliation {
+    flex: 1; /* Take up remaining space */
+}
+
+.affiliation .place {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.affiliation .position {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin: 0.2rem 0;
+}
+
+.time {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #777;
+    margin-left: 1rem;
+    text-align: right;
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+
+
+@media (max-width: 768px) {
+    .experience-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .time {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        text-align: left;
+    }
+}
+
+
+
+/* General publication list styling */
+.year-section {
+    margin-bottom: 2rem;
+}
+
+.year-section h3 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 0.1rem;
+    text-align: left;
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 0.1rem;
+}
+
+.publication-card {
+    background-color: #fff;
+    padding: 0.5rem; /* Reduce padding for a more compact layout */
+    border-radius: 6px; /* Slightly smaller border radius */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem; /* Less vertical spacing between cards */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.publication-card h4 {
+    font-family: 'Lora', serif;
+    font-size: 16px; 
+    color: #222;
+    margin-bottom: 0.1rem; 
+}
+
+.publication-card .authors {
+    font-size: 13px; 
+    color: #555;
+    margin-bottom: 0.1rem;
+}
+
+.publication-card .journal {
+    font-size: 13px; 
+    color: #777;
+    font-style: italic;
+    margin-bottom: 0.1rem;
+}
+
+.publication-card .abstract {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 0.1rem;
+    line-height: 1.4; 
+}
+
+.publication-card .read-more {
+    font-size: 13px; 
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.publication-card .read-more:hover {
+    color: #0056b3;
 }
