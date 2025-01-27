@@ -210,8 +210,9 @@ section h2 {
 .project img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     height: auto;
+    max-height: 300px;
     object-fit: cover;
 }
 
