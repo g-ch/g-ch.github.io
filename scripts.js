@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2024,
             month: 12,
             link: "https://ieeexplore.ieee.org/abstract/document/10824916",
+            arXiv: "https://arxiv.org/pdf/2409.11975",
+            video: "https://youtu.be/OIJDZRtHFHE",
+            code: "https://github.com/tud-amr/semantic_dsp_map",
             abstract: "Representing the 3D environment with instance-aware semantic and geometric information is crucial for interaction-aware robots in dynamic environments..."
         },
         {
@@ -15,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
             journal: "IEEE/RSJ International Conference on Intelligent Robots and Systems",
             year: 2024,
             month: 4,
-            link: "https://arxiv.org/pdf/2404.14848",
+            arXiv: "https://arxiv.org/pdf/2404.14848",
+            video: "https://smoggy-p.github.io/Evaluating_Dynamic_Difficulty/",
+            code: "https://github.com/smoggy-P/gym-Drone2D-ActivePerception",
             abstract: "Benchmarking obstacle avoidance algorithms in dynamic environments is challenging due to the lack of a standardized difficulty metric..."
         },
         {
@@ -24,7 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
             journal: "IEEE International Conference on Robotics and Automation",
             year: 2024,
             month: 5,
-            link: "https://arxiv.org/pdf/2404.15602",
+            arXiv: "https://arxiv.org/pdf/2404.15602",
+            video: "https://github.com/siyuanwu99/pred-occ-planner",
+            code: "https://github.com/siyuanwu99/pred-occ-planner",
             abstract: "Decentralized multi-agent trajectory planning in dynamic environments is a challenging problem due to the high dimensionality of the state space..."
         },
         {
@@ -34,6 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2023,
             month: 9,
             link: "https://ieeexplore.ieee.org/abstract/document/10285872",
+            arXiv: "https://arxiv.org/pdf/2202.06273",
+            video: "https://youtu.be/seF_Oy4YbXo",
+            code: "https://github.com/g-ch/DSP-map",
             abstract: "Particle-based dynamic occupancy maps were proposed in recent years to model the obstacles in dynamic environments..."
         },
         {
@@ -43,6 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2023,
             month: 4,
             link: "https://ieeexplore.ieee.org/abstract/document/10034468",
+            video: "https://youtu.be/UmmZzJi25GE",
+
             abstract: "This paper explores risk-aware trajectory sampling techniques for quadrotor obstacle avoidance in dynamic environments..."
         },
         {
@@ -52,6 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2022,
             month: 12,
             link: "https://ieeexplore.ieee.org/abstract/document/9998074",
+            video: "https://youtu.be/G44r-rmz_rw",
+            code: "https://github.com/tud-amr/rast",
             abstract: "Autonomous navigation of Micro Aerial Vehicles in dynamic and unknown environments is a complex and challenging task..."
         },
         {
@@ -61,15 +75,18 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2022,
             month: 11,
             link: "https://ieeexplore.ieee.org/abstract/document/9981858",
+            arXiv: "https://arxiv.org/abs/2202.13381",
             abstract: "This paper presents a novel obstacle avoidance algorithm for resilient UAV swarm formation in dense environments..."
         },
         {
             title: "What Should Be the Input: Investigating the Environment Representations in Sim-to-Real Transfer for Navigation Tasks",
             authors: "G Chen, H Yu, W Dong, X Sheng, X Zhu, H Ding",
             journal: "Robotics and Autonomous Systems",
-            year: 2022,
-            month: 7,
+            year: 2019,
+            month: 12,
             link: "https://www.sciencedirect.com/science/article/abs/pii/S0921889022000409",
+            arXiv: "https://arxiv.org/abs/1910.05758",
+            video: "https://youtu.be/ucGyuMjlgEk",
             abstract: "Sim-to-real transfer is a challenging problem in robotics, especially for navigation tasks in dynamic environments..."
         },
         {
@@ -79,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2022,
             month: 7,
             link: "https://ieeexplore.ieee.org/abstract/document/9765385",
+            arXiv: "https://arxiv.org/abs/2108.05505",
             abstract: "This paper presents a novel vision-based formation control algorithm for drone flocking in dynamic environments..."
         },
         {
@@ -97,6 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2021,
             month: 2,
             link: "https://ieeexplore.ieee.org/abstract/document/9363525",
+            video: "https://youtu.be/zgIZDW39KJs",
             abstract: "This paper presents a computationally efficient trajectory planning algorithm for high-speed obstacle avoidance of a quadrotor..."
         },
         {
@@ -106,6 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
             year: 2021,
             month: 2,
             link: "https://ieeexplore.ieee.org/abstract/document/9359513",
+            video: "https://youtu.be/VohL2d_yYpg",
             abstract: "This paper presents an active sense and avoid system for flying robots in dynamic environments..."
         },
         {
@@ -191,12 +211,23 @@ document.addEventListener("DOMContentLoaded", function () {
             groupedPublications[year].forEach((pub) => {
                 const pubCard = document.createElement("div");
                 pubCard.classList.add("publication-card");
+                
+                // Create links HTML only for properties that exist
+                const linksHTML = [
+                    { prop: 'link', text: 'Link' },
+                    { prop: 'arXiv', text: 'arXiv' },
+                    { prop: 'code', text: 'Code' },
+                    { prop: 'video', text: 'Video' }
+                ].map(({prop, text}) => 
+                    pub[prop] ? `<a href="${pub[prop]}" target="_blank" class="read-more">${text}</a>&nbsp ` : ''
+                ).join(''); // Added a space after each link
+            
                 pubCard.innerHTML = `
                     <h4>${pub.title}</h4>
                     <p class="authors">${pub.authors}</p>
                     <p class="journal">${pub.journal} (${pub.year})</p>
                     <p class="abstract">${pub.abstract}</p>
-                    <a href="${pub.link}" target="_blank" class="read-more">Read Full Paper</a>
+                    <div class="links-container">${linksHTML}</div>
                 `;
                 yearSection.appendChild(pubCard);
             });
