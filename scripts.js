@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Efficient Learning-based Trajectory Tacker for Quadrotor at High-speed Flight",
             authors: "P Peng, Y Ni, G Chen, W Dong",
-            journal: "IEEE Robotics and Control Applications",
+            journal: "IEEE International Conference on Real-time Computing and Robotics",
             year: 2021,
             month: 7,
             link: "https://ieeexplore.ieee.org/abstract/document/9517601",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Generating Spatial Semantic Representations for Indoor Global Mapping",
             authors: "G Chen, W Dong, X Sheng, X Zhu",
-            journal: "IEEE Robotics and Control Applications",
+            journal: " IEEE International Conference on Real-time Computing and Robotics",
             year: 2019,
             month: 8,
             link: "https://ieeexplore.ieee.org/abstract/document/9043998",
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "A Separate Data Structure for Online Multi-hypothesis Topological Mapping",
             authors: "C Gong, G Chen, W Dong, X Sheng, X Zhu",
-            journal: "IEEE Robotics and Control Applications",
+            journal: "Intelligent Robotics and Applications: 12th International Conference",
             year: 2019,
             month: 8,
             link: "https://link.springer.com/chapter/10.1007/978-3-030-27538-9_58",
