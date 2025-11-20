@@ -1,11 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
     const publications = [
         {
+            title: "Pushing Through Clutter With Movability Awareness of Blocking Obstacles",
+            authors: "Joris J Weeda, Saray Bakker, Gang Chen, Javier Alonso-Mora",
+            journal: "IEEE International Conference on Robotics and Automation (ICRA)",
+            year: 2025,
+            month: 1,
+            arXiv: "https://arxiv.org/pdf/2502.20106",
+            video: "https://www.youtube.com/watch?v=oePiRNrdl4Q",
+            code: "https://github.com/tud-amr/SVG-MPPI",
+            abstract: "Navigation Among Movable Obstacles (NAMO) poses a challenge for traditional path-planning methods when obstacles block the path, requiring push actions to reach the goal. We propose a framework that enables movability-aware planning to overcome this challenge without relying on explicit obstacle placement. Our framework integrates a global Semantic Visibility Graph and a local Model Predictive Path Integral (SVG-MPPI) approach to efficiently sample rollouts, taking into account the continuous range of obstacle movability. A physics engine is adopted to simulate the interaction result of the rollouts with the environment, and generate trajectories that minimize contact force. In qualitative and quantitative experiments, SVG-MPPI outperforms the existing paradigm that uses only binary movability for planning, achieving higher success rates with reduced cumulative contact forces. Our code is available at: https://github.com/tud-amr/SVG-MPPI"
+        },
+        {
             title: "Particle-based Instance-aware Semantic Occupancy Mapping in Dynamic Environments",
             authors: "G Chen, Z Wang, W Dong, J Alonso-Mora",
             journal: "IEEE Transactions on Robotics",
-            year: 2024,
-            month: 12,
+            year: 2025,
+            month: 1,
             link: "https://ieeexplore.ieee.org/abstract/document/10824916",
             arXiv: "https://arxiv.org/pdf/2409.11975",
             video: "https://youtu.be/OIJDZRtHFHE",

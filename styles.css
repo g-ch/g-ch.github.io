@@ -1,4 +1,8 @@
 /* Existing styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,8 +16,10 @@ body {
 
 header {
     background-color: #fff;
-    padding: 0.5rem 0;
+    padding: 0.5rem 2rem;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -24,21 +30,50 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .nav-icon {
     width: auto;
     height: 50px;
-    margin-right: 420px; /* Adjust as needed */
+    margin-right: 0;
 }
 
 nav a {
     color: #0C2340;
-    margin: 0 1.5rem;
+    margin: 0;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0C2340;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 main {
@@ -47,9 +82,21 @@ main {
 }
 
 .centered-section {
-    max-width: 800px; /* Increased max-width for wider content space */
+    max-width: 960px; /* Increased max-width for wider content space */
     margin: 0 auto;
     text-align: left; /* Text aligned left within each section */
+}
+
+.centered-section a:not(.icon-link):not(.read-more) {
+    color: #0C2340;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.centered-section a:not(.icon-link):not(.read-more):hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
 }
 
 section {
@@ -60,7 +107,10 @@ section {
 section h2 {
     margin-top: 3rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #1a1a1a;
 }
 
 #basic-info {
@@ -70,25 +120,41 @@ section h2 {
     flex-wrap: wrap;
     background-color: #fff;
     /* border: 1px solid #ddd; */
-    border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
     margin: 1rem auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 960px;
     box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
+}
+
+#basic-info:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .profile-pic img {
     width: auto;
     height: 200px;
-    margin-right: 4rem;
+    margin-right: 6rem;
     max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .contact-info h2 {
     margin-top: 0;
     font-size: 1.8rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: -0.3px;
 }
 
 .papers {
@@ -103,7 +169,7 @@ section h2 {
     margin: 1rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 800px;
+    max-width: 960px;
     display: flex;
     /*flex-direction: column;*/ /* Stack elements vertically */
     align-items: center;
@@ -218,11 +284,18 @@ section h2 {
 
 .project {
     margin-bottom: 3rem; /* Adds space between each project */
-    padding: 1.5rem;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    border-color: #0C2340;
 }
 
 
@@ -297,7 +370,11 @@ button:focus {
 
     nav a {
         font-size: 18px;
-        margin: 0.5rem;
+        margin: 0;
+    }
+    
+    .nav-links {
+        gap: 0.5rem;
     }
 
     .nav-icon {
@@ -359,14 +436,34 @@ header {
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    box-sizing: border-box;
 }
 
 nav a {
     color: #555;
-    margin: 0 1rem;
+    margin: 0;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0C2340;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 nav a:hover {
@@ -396,13 +493,30 @@ h2 {
     text-align: center;
 }
 
+footer {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 1px solid #3a3a3a;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
 footer a {
-    color: #fff;
+    color: #b0b0b0;
     margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #0C2340;
+    color: #ffffff;
 }
 
 button {
@@ -447,11 +561,21 @@ button:hover {
     color: #333;
     margin: 0 0.5rem;
     font-size: 18px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
 }
 
 .icon-link:hover {
-    color: #0C2340; /* Change to your desired hover color */
+    color: #0C2340;
+    transform: translateY(-2px);
+}
+
+.icon-link i {
+    transition: transform 0.2s ease;
+}
+
+.icon-link:hover i {
+    transform: scale(1.1);
 }
 
 .icon-link i {
@@ -470,12 +594,21 @@ button:hover {
 .research-item {
     display: flex;
     align-items: center;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    padding: 1.25rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     font-size: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: default;
+}
+
+.research-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+    border-color: #0C2340;
+    background-color: #ffffff;
 }
 
 .research-item i {
