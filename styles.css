@@ -10,13 +10,13 @@ body {
     background-color: #ffffff;
     color: #000;
     text-align: center;
-    font-size: 18px; /* Base font size */
+    font-size: 14.4px; /* Base font size */
     line-height: 1.6; /* Adjust this value to increase or decrease line spacing */
 }
 
 header {
     background-color: #fff;
-    padding: 0.5rem 2rem;
+    padding: 0.4rem 1.6rem;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .nav-icon {
@@ -55,7 +55,7 @@ nav a {
     color: #0C2340;
     margin: 0;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease, transform 0.2s ease;
     position: relative;
@@ -77,12 +77,12 @@ nav a:hover::after {
 }
 
 main {
-    padding: 2rem;
+    padding: 1.6rem;
     background-color: #ffffff;
 }
 
 .centered-section {
-    max-width: 960px; /* Increased max-width for wider content space */
+    max-width: 800px; /* Narrower content width for more compact display */
     margin: 0 auto;
     text-align: left; /* Text aligned left within each section */
 }
@@ -100,14 +100,14 @@ main {
 }
 
 section {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     text-align: left;
 }
 
 section h2 {
-    margin-top: 3rem;
+    margin-top: 2.4rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 22.4px;
     font-weight: 600;
     letter-spacing: -0.5px;
     color: #1a1a1a;
@@ -118,26 +118,26 @@ section h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: transparent;
     /* border: 1px solid #ddd; */
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    padding: 2rem;
-    margin: 1rem auto;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 1.6rem;
+    margin: 0.8rem auto;
     width: 100%;
-    max-width: 960px;
+    max-width: 800px;
     box-sizing: border-box;
-    transition: box-shadow 0.3s ease;
+    transition: none;
 }
 
 #basic-info:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-shadow: none;
 }
 
 .profile-pic img {
     width: auto;
     height: 200px;
-    margin-right: 6rem;
+    margin-right: 4.8rem;
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -151,7 +151,7 @@ section h2 {
 
 .contact-info h2 {
     margin-top: 0;
-    font-size: 1.8rem;
+    font-size: 1.44rem;
     font-weight: 600;
     color: #1a1a1a;
     letter-spacing: -0.3px;
@@ -165,11 +165,11 @@ section h2 {
 
 .paper {
     background-color: #fff;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 0.8rem;
+    margin: 0.8rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 960px;
+    max-width: 800px;
     display: flex;
     /*flex-direction: column;*/ /* Stack elements vertically */
     align-items: center;
@@ -182,12 +182,12 @@ section h2 {
     height: auto;
     max-height: 200px;
     object-fit: cover;
-    margin-right: 2rem;
+    margin-right: 1.6rem;
 }
 
 .paper-info {
     text-align: left;
-    font-size: 14px;
+    font-size: 11.2px;
     line-height: 1.0; /* Adjust this value to increase or decrease line spacing */
     width: 100%;
 }
@@ -216,8 +216,8 @@ section h2 {
 /* Style for the paper card */
 .paper {
     background-color: #ffffff;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 0.8rem;
+    margin: 0.8rem 0;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border-radius: 8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add smooth transition */
@@ -251,8 +251,8 @@ section h2 {
 
 /* Paper title */
 .paper-info h3 {
-    font-size: 18px;
-    margin-bottom: 0.5rem;
+    font-size: 14.4px;
+    margin-bottom: 0.4rem;
     color: #333;
     transition: color 0.3s ease; /* Add hover effect to title */
 }
@@ -264,9 +264,9 @@ section h2 {
 
 /* Abstract text */
 .paper-info p {
-    font-size: 14px;
+    font-size: 11.2px;
     color: #555;
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
     line-height: 1.6;
 }
 
@@ -283,8 +283,8 @@ section h2 {
 }
 
 .project {
-    margin-bottom: 3rem; /* Adds space between each project */
-    padding: 2rem;
+    margin-bottom: 2.4rem; /* Adds space between each project */
+    padding: 1.6rem;
     background-color: #ffffff;
     border: 1px solid #e8e8e8;
     border-radius: 12px;
@@ -303,12 +303,12 @@ button {
     background-color: #fafcfa;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 12.8px;
+    margin: 3.2px 1.6px;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -322,7 +322,7 @@ button:focus {
 .experience {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     flex-wrap: wrap;
 }
 
@@ -330,13 +330,13 @@ button:focus {
     width: 80px;
     height: auto;
     object-fit: cover;
-    margin-right: 1rem;
+    margin-right: 0.8rem;
     max-width: 100%;
 }
 
 .experience-info {
     flex: 1;
-    font-size: 18px;
+    font-size: 14.4px;
 }
 
 .experience-info p {
@@ -361,45 +361,45 @@ button:focus {
 
 @media (max-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 12.8px;
     }
 
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     nav a {
-        font-size: 18px;
+        font-size: 14.4px;
         margin: 0;
     }
     
     .nav-links {
-        gap: 0.5rem;
+        gap: 0.4rem;
     }
 
     .nav-icon {
         width: auto;
         height: 40px;
-        margin-right: 0.5rem; /* Adjust as needed */
+        margin-right: 0.4rem; /* Adjust as needed */
     }
 
     .centered-section {
-        padding: 1rem;
+        padding: 0.8rem;
     }
 
     section h2 {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
     }
 
     .profile-pic img {
         height: 150px;
-        margin-right: 1rem;
+        margin-right: 0.8rem;
     }
 
     .paper {
-        padding: 1rem;
-        margin: 1rem 0;
+        padding: 0.8rem;
+        margin: 0.8rem 0;
     }
 
     .paper img {
@@ -408,16 +408,16 @@ button:focus {
         height: auto;
         max-height: 150px;
         object-fit: cover;
-        margin-right: 0.5rem;
+        margin-right: 0.4rem;
     }
 
     .experience img {
         width: 60px;
-        margin-right: 0.5rem;
+        margin-right: 0.4rem;
     }
 
     .experience-info {
-        font-size: 16px;
+        font-size: 12.8px;
     }
 }
 
@@ -437,7 +437,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     width: 100%;
-    padding: 0.5rem 2rem;
+    padding: 0.4rem 1.6rem;
     box-sizing: border-box;
 }
 
@@ -445,7 +445,7 @@ nav a {
     color: #555;
     margin: 0;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14.4px;
     font-weight: 500;
     transition: color 0.3s ease, transform 0.2s ease;
     position: relative;
@@ -475,36 +475,36 @@ h2 {
     font-family: 'Lora', serif;
     color: #222;
     border-bottom: 2px solid #ddd;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
 }
 
 .section {
-    padding: 2rem 0;
+    padding: 1.6rem 0;
     background-color: #fff;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
     text-align: center;
 }
 
 footer {
     background-color: #2a2a2a;
     color: #e0e0e0;
-    padding: 2rem 0;
+    padding: 1.6rem 0;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3.2rem;
     border-top: 1px solid #3a3a3a;
 }
 
 footer p {
     margin: 0;
-    font-size: 14px;
+    font-size: 11.2px;
     color: #b0b0b0;
 }
 
@@ -523,8 +523,8 @@ button {
     background-color: #0C2340;
     color: #fff;
     border: none;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 6.4px 12.8px;
+    font-size: 11.2px;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -541,7 +541,7 @@ button:hover {
     overflow: hidden;
     max-width: 100%;
     background: #000;
-    margin: 2rem auto;
+    margin: 1.6rem auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -559,8 +559,8 @@ button:hover {
 .icon-link {
     text-decoration: none;
     color: #333;
-    margin: 0 0.5rem;
-    font-size: 18px;
+    margin: 0 0.4rem;
+    font-size: 14.4px;
     transition: color 0.3s ease, transform 0.2s ease;
     display: inline-block;
 }
@@ -579,27 +579,27 @@ button:hover {
 }
 
 .icon-link i {
-    margin-right: 0.5rem;
-    font-size: 20px;
+    margin-right: 0.4rem;
+    font-size: 16px;
 }
 
 
 .research-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 1.5rem; /* Space between items */
-    margin-top: 2rem;
+    gap: 1.2rem; /* Space between items */
+    margin-top: 1.6rem;
 }
 
 .research-item {
     display: flex;
     align-items: center;
-    padding: 1.25rem;
+    padding: 1rem;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-    font-size: 16px;
+    font-size: 12.8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     cursor: default;
 }
@@ -612,9 +612,9 @@ button:hover {
 }
 
 .research-item i {
-    font-size: 24px;
+    font-size: 19.2px;
     color: #0C2340; /* Icon color */
-    margin-right: 1rem;
+    margin-right: 0.8rem;
 }
 
 .research-item span {
@@ -627,14 +627,14 @@ button:hover {
 .experience {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     flex-wrap: wrap; /* Adjust layout on smaller screens */
 }
 
 .experience img {
     width: 80px;
     height: auto;
-    margin-right: 1rem;
+    margin-right: 0.8rem;
     object-fit: cover;
 }
 
@@ -643,7 +643,7 @@ button:hover {
     justify-content: space-between;
     align-items: flex-start;
     width: 100%; /* Ensure it spans the entire row */
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
 }
 
 .affiliation {
@@ -652,7 +652,7 @@ button:hover {
 
 .affiliation .place {
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 14.4px;
     font-weight: bold;
     color: #333;
     margin: 0;
@@ -660,16 +660,16 @@ button:hover {
 
 .affiliation .position {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 12.8px;
     color: #444;
-    margin: 0.2rem 0;
+    margin: 0.16rem 0;
 }
 
 .time {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12.8px;
     color: #777;
-    margin-left: 1rem;
+    margin-left: 0.8rem;
     text-align: right;
     white-space: nowrap; /* Prevent line breaks */
 }
@@ -684,7 +684,7 @@ button:hover {
 
     .time {
         margin-left: 0;
-        margin-top: 0.5rem;
+        margin-top: 0.4rem;
         text-align: left;
     }
 }
@@ -698,20 +698,20 @@ button:hover {
 
 .year-section h3 {
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #333;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.08rem;
     text-align: left;
     /* border-bottom: 1px solid #ddd; */
-    padding-bottom: 0.1rem;
+    padding-bottom: 0.08rem;
 }
 
 .publication-card {
     background-color: #fff;
-    padding: 0.5rem; /* Reduce padding for a more compact layout */
+    padding: 0.4rem; /* Reduce padding for a more compact layout */
     border-radius: 6px; /* Slightly smaller border radius */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0.5rem; /* Less vertical spacing between cards */
+    margin-bottom: 0.4rem; /* Less vertical spacing between cards */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -722,33 +722,33 @@ button:hover {
 
 .publication-card h4 {
     font-family: 'Lora', serif;
-    font-size: 16px; 
+    font-size: 12.8px; 
     color: #222;
-    margin-bottom: 0.1rem; 
+    margin-bottom: 0.08rem; 
 }
 
 .publication-card .authors {
-    font-size: 13px; 
+    font-size: 10.4px; 
     color: #555;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.08rem;
 }
 
 .publication-card .journal {
-    font-size: 13px; 
+    font-size: 10.4px; 
     color: #777;
     font-style: italic;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.08rem;
 }
 
 .publication-card .abstract {
-    font-size: 13px;
+    font-size: 10.4px;
     color: #333;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.08rem;
     line-height: 1.4; 
 }
 
 .publication-card .read-more {
-    font-size: 13px; 
+    font-size: 10.4px; 
     color: #0078d7;
     text-decoration: none;
     font-weight: bold;
