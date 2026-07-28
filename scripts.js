@@ -281,26 +281,47 @@ document.addEventListener("DOMContentLoaded", function () {
             yearSection.innerHTML = `<h3>${year}</h3>`;
 
             groupedPublications[year].forEach((pub) => {
-                const pubCard = document.createElement("div");
+                const pubCard = document.createElement("article");
                 pubCard.classList.add("publication-card");
-                
-                // Create links HTML only for properties that exist
+
                 const linksHTML = [
-                    { prop: 'link', text: 'Link' },
-                    { prop: 'arXiv', text: 'arXiv' },
-                    { prop: 'code', text: 'Code' },
-                    { prop: 'video', text: 'Video' }
-                ].map(({prop, text}) => 
-                    pub[prop] ? `<a href="${pub[prop]}" target="_blank" class="read-more">${text}</a>&nbsp ` : ''
-                ).join(''); // Added a space after each link
-            
+                    { prop: "link", text: "Paper" },
+                    { prop: "arXiv", text: "arXiv" },
+                    { prop: "code", text: "Code" },
+                    { prop: "video", text: "Video" },
+                ]
+                    .map(({ prop, text }) =>
+                        pub[prop]
+                            ? `<a href="${pub[prop]}" target="_blank" rel="noopener" class="read-more">${text}</a>`
+                            : ""
+                    )
+                    .join("");
+
+                const hasAbstract = Boolean(pub.abstract);
+                const toggleHTML = hasAbstract
+                    ? `<button type="button" class="abstract-toggle">Abstract</button>`
+                    : "";
+                const abstractHTML = hasAbstract
+                    ? `<p class="abstract">${pub.abstract}</p>`
+                    : "";
+
                 pubCard.innerHTML = `
                     <h4>${pub.title}</h4>
                     <p class="authors">${pub.authors}</p>
                     <p class="journal">${pub.journal} (${pub.year})</p>
-                    <p class="abstract">${pub.abstract}</p>
-                    <div class="links-container">${linksHTML}</div>
+                    <div class="links-container">${linksHTML}${toggleHTML}</div>
+                    ${abstractHTML}
                 `;
+
+                const toggle = pubCard.querySelector(".abstract-toggle");
+                const abstract = pubCard.querySelector(".abstract");
+                if (toggle && abstract) {
+                    toggle.addEventListener("click", () => {
+                        const open = abstract.classList.toggle("open");
+                        toggle.textContent = open ? "Hide abstract" : "Abstract";
+                    });
+                }
+
                 yearSection.appendChild(pubCard);
             });
 
