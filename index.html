@@ -27,8 +27,8 @@
             </div>
             <div class="contact-info">
                 <h2>Gang Chen (Clarence) 陈刚</h2>
-                <p>Email: <a href="mailto:g.chen-5@tudelft.nl">g.chen-5@tudelft.nl</a></p>
-                <p>Office: F2-140, Building 34, 2628 CD Delft</p>
+                <p>Email: <a href="mailto:chg947089399@sjtu.edu.cn">chg947089399@sjtu.edu.cn</a></p>
+                <p>Office: A906, School of Mechanical Engineering, SJTU</p>
                 <p>
                     <a href="https://github.com/g-ch" target="_blank" class="icon-link">
                         <i class="fab fa-github"></i> GitHub
@@ -47,7 +47,8 @@
 
         <section id="profile" class="centered-section">
             <p>
-                I am a postdoctoral researcher at the <a href="https://autonomousrobots.nl/">Autonomous Multi-Robots (AMR) Lab</a> in Cognitive Robotics, Delft University of Technology, Netherlands.
+                I am a tenure-track associate professor at Shanghai Jiao Tong University, China.
+                Before that, I was a postdoctoral researcher at the <a href="https://autonomousrobots.nl/">Autonomous Multi-Robots (AMR) Lab</a> in Cognitive Robotics, Delft University of Technology, Netherlands.
                 My research interests mainly include robot perception and spatial AI for mobile robots and multi-robot systems,
                 with a special focus on dynamic environments. 
                 The goal is to make robots working in human environments safely and efficiently. 
@@ -152,14 +153,15 @@
                 <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/OIJDZRtHFHE"
-                    title="Semantic DSP Map"
+                    src="https://www.youtube.com/embed/yG5Ln4kwh_M"
+                    title="OpenSGA"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
                 </iframe>
             </div>
         </section>
+
 
         
 
@@ -168,12 +170,37 @@
 
             <div class="papers">
                 <div class="paper">
+                    <img src="assets/opensga.png" alt="Paper 1">
+                    <div class="paper-info">
+                        <h3><a href="https://arxiv.org/abs/2603.13825">OpenSGA: Efficient 3D Scene Graph Alignment in the Open World</a> </h3>
+                        <p>Authors: G Chen, SB Laina, S Leutenegger, J Alonso-Mora </p>
+                        <p>Year: 2026</p>
+                        <p>Journal: under review in International Journal of Robotics Research (IJRR)</p>
+                        <p class="abstract">Abstract: Scene graph alignment establishes object correspondences between two 3D scene graphs constructed from partially overlapping observations. This enables efficient scene understanding and object-level relocalization when a robot revisits a place, as well as global map fusion across multiple agents. Such capabilities are essential for robots that require long-term memory for long-horizon tasks involving interactions with the environment. Existing approaches mainly focus on subscan-to-subscan (S2S) alignment and depend heavily on geometric point-cloud features, leaving frame-to-scan (F2S) alignment and open-set vision-language features underexplored. In addition, existing datasets for scene graph alignment remain small-scale with limited object diversity, constraining systematic training and evaluation. We present a unified and efficient scene graph alignment framework that predicts object correspondences by fusing vision-language, textual, and geometric features with spatial context. The framework comprises modules such as a distance-gated spatial attention encoder, a minimum-cost-flow-based allocator, and a global scene embedding generator to achieve accurate alignment even under large coordinate discrepancies. We further introduce ScanNet-SG, a large-scale dataset generated via an automated annotation pipeline with over 700k samples, covering 509 object categories from ScanNet labels and over 3k categories from GPT-4o-based tagging. Experiments show that our method achieves the best overall performance on both F2S and S2S tasks, substantially outperforming existing scene graph alignment methods. Our code and dataset are released at: https://autonomousrobots.nl/paper_websites/opensga.</p>
+                    </div>
+            </div>
+
+            <div class="papers">
+                <div class="paper">
+                    <img src="assets/anything2robot.png" alt="Paper 1">
+                    <div class="paper-info">
+                        <h3><a href="https://www.nature.com/articles/s44182-026-00101-3">Automatic personalized limbed robot design from media inputs</a> </h3>
+                        <p>Authors: G Chen, M Shi, Y Xing, M Popović, J Alonso-Mora, L Zhang, J Pang </p>
+                        <p>Year: 2026</p>
+                        <p>Journal: npj Robotics</p>
+                        <p class="abstract">Abstract: Designing limbed robots is a complex, multidisciplinary task that typically requires substantial effort from experienced engineers. In this paper, we present a novel automatic robot design framework based on Decomposition-Optimization-Assembling (DOA) to address this challenge. Our framework enables non-experts to create personalized limbed robot designs from media inputs, such as text and images, within minutes to a few hours. Our system leverages recent advances in generative AI and 3D printing to produce designs that match the descriptions provided in the input media. The output consists of selected motors and 3D-printable mechanical components that can be assembled into a limbed robot. To handle the large design space and intricate details in fabrication and assembly, we formulate and solve a series of optimization problems involving actuators, geometry, and structural density. We validate the proposed system by designing and fabricating a Centaur robot based on an image input. Furthermore, we demonstrate the system’s versatility and effectiveness through the generation of a wide variety of limbed robot designs.</p>
+                    </div>
+                </div>
+
+
+            <div class="papers">
+                <div class="paper">
                     <img src="assets/semantic_dsp.png" alt="Paper 1">
                     <div class="paper-info">
                         <h3><a href="https://arxiv.org/pdf/2409.11975">Particle-based Instance-aware Semantic Occupancy Mapping in Dynamic Environments</a> </h3>
                         <p>Authors: G Chen, Z Wang, W Dong, J Alonso-Mora </p>
-                        <p>Year: 2024</p>
-                        <p>Journal: IEEE Transactions on Robotics (Accecpted)</p>
+                        <p>Year: 2025</p>
+                        <p>Journal: IEEE Transactions on Robotics</p>
                         <p class="abstract">Abstract: Representing the 3D environment with instance-aware semantic and geometric information is crucial for interaction-aware robots in dynamic environments. 
                             Nevertheless, creating such a representation poses challenges due to sensor noise, instance segmentation and tracking errors, and the objects' dynamic motion.
                             This paper introduces a novel particle-based instance-aware semantic occupancy map to tackle these challenges. 
